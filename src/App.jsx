@@ -1,11 +1,9 @@
-import Footer from "./components/Footer"
-import WhatsappButton from "./components/WhatsappButton"
+import HomePage from "./pages/Home"
 
 const App = () => {
   return (
     <div>
-      <Footer/>
-      <WhatsappButton/>
+      <HomePage/>
     </div>
   )
 }

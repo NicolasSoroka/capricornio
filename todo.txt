@@ -1,0 +1,13 @@
+    componentes:
+texto/link que se oscurece al hover
+texto que parece barriendo
+burger menu
+
+
+
+navegacion
+    home
+    contacto
+    productos
+    about us
+boton contacto - agregar link

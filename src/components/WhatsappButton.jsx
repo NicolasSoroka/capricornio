@@ -1,14 +1,20 @@
-import React from 'react'
 import wspLogo from '../../public/wsp_logo.svg'
+import { motion } from "framer-motion"
 
 const WhatsappButton = () => {
   return (
-    <div className='flex justify-center items-center w-[65px] h-[65px] rounded-full bg-green-500'>
+    <motion.div
+      className='absolute bottom-4 right-4 flex justify-center items-center w-[60px] h-[60px] rounded-full bg-green-400'
+      whileHover={{
+        scale: 1.05 ,
+        transition: { duration: 0.2 },
+      }}
+      >
       <img 
-        className='w-[38px] h-[38px]' 
+        className='w-[35px] h-[35px]' 
         src={wspLogo} 
         alt="whatsapp_logo" />
-    </div>
+    </motion.div>
   )
 }
 
