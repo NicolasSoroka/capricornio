@@ -1,13 +1,12 @@
 import Carousel from '../components/Carousel'
-import Layout from '../components/Layout'
 import TextBlock from '../components/TextBlock'
 
 const HomePage = () => {
   return (
-    <Layout>
+    <>
+      <Carousel height={'350px'}/>
       <TextBlock/>
-      <Carousel/>
-    </Layout>
+    </>
   )
 }
 

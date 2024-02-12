@@ -1,45 +1,50 @@
-import { useEffect, useRef } from "react";
-import { register } from "swiper/element/bundle";
-register();
+import Slider from "react-slick";
 
-const Carousel = () => {
-  const swiperRef = useRef(null);
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-  useEffect(() => {
-    const swiperContainer = swiperRef.current;
-    const params = {
-      navigation: true,
-      loop: true,
-      autoplay: { delay: 3000 },
-      pagination: true,
-      injectStyles: [
-        `
-          .swiper-button-next,
-          .swiper-button-prev {
-            margin: auto;
-            padding: 0;
-            height: 15px;
-            width: 15px;
-            color: #adaaaa;
-          }
-          .swiper-pagination-bullet{
-            background-color: rgb(148,163,184)
-          }
-      `,
-      ],
-    };
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", position: 'absolute', top: '0', right: '0', background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
 
-    Object.assign(swiperContainer, params);
-    swiperContainer.initialize();
-  }, []);
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", position: 'absolute', top: '0', left: '0', background: 'green' }}
+      onClick={onClick}
+    />
+  );
+}
+
+export default function SimpleSlider() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
+  };
 
   return (
-    <swiper-container ref={swiperRef} init="false">
-      <swiper-slide class="w-full h-[200px] bg-red-200 flex justify-center items-center">Slide 1</swiper-slide>
-      <swiper-slide class="w-full h-[200px] bg-blue-200 flex justify-center items-center">Slide 2</swiper-slide>
-      <swiper-slide class="w-full h-[200px] bg-green-200 flex justify-center items-center">Slide 3</swiper-slide>
-    </swiper-container>
+    <Slider {...settings}>
+      <div className="h-[250px] md:h-[650px] w-full">
+        <video src="./home/video.mp4" muted autoPlay loop></video>
+      </div>
+      <div className="h-[250px]">
+      </div>
+      <div className="h-[250px]">
+      </div>
+    </Slider>
   );
-};
-
-export default Carousel;
+}

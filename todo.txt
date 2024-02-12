@@ -1,11 +1,8 @@
-    componentes:
 texto/link que se oscurece al hover
 texto que parece barriendo
-burger menu
+banner con animaciones
+formulario de contacto
 
-
-
-navegacion
     home
     contacto
     productos
