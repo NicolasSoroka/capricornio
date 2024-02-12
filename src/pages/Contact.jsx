@@ -1,13 +1,9 @@
-import Carousel from '../components/Carousel'
-import TextBlock from '../components/TextBlock'
-
-const HomePage = () => {
+const ContactPage = () => {
   return (
-    <>
-      <TextBlock/>
-      <Carousel/>
-    </>
+    <div>
+      <img src="../public/contacto/contacto.webp" alt="hero" className="w-full h-[800px] object-cover" />
+    </div>
   )
 }
 
-export default HomePage
+export default ContactPage
