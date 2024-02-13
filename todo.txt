@@ -1,10 +1,6 @@
 texto/link que se oscurece al hover
 texto que parece barriendo
 banner con animaciones
-formulario de contacto
 
     home
-    contacto
     productos
-    about us
-boton contacto - agregar link

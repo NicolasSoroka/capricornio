@@ -10,7 +10,7 @@ const BurgerMenu = ({ isMenuOpen }) => {
     setIsBurgerMenuOpen((prev) => !prev);
   };
 
-  useEscapeKey(handleMenuOpen);
+  useEscapeKey(()=> setIsBurgerMenuOpen(false));
 
   return (
     <>

@@ -6,6 +6,7 @@ import HomePage from "./pages/Home.jsx";
 import Layout from "./components/Layout.jsx";
 import AboutPage from "./pages/About.jsx";
 import ContactPage from "./pages/Contact.jsx";
+import ProductsPage from "./pages/Products.jsx";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
     path: "/productos",
     element: (
       <Layout>
-        {/* <ProductsPage /> */}
+        <ProductsPage />
       </Layout>
     ),
   },
