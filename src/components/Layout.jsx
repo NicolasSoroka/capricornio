@@ -6,7 +6,7 @@ import WhatsappButton from "./WhatsappButton";
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col w-full h-lvh">
-      <header className="fixed md:hidden z-50 flex flex-col w-full h-[230px] bg-white items-center py-8 gap-y-6">
+      <header className="fixed md:hidden flex flex-col w-full h-[230px] bg-white items-center py-8 gap-y-6">
         <img src="../../public/logo.webp" alt="logo_capricornio" />
         <div className="flex w-full items-center">
           <span className="flex w-1/3"></span>

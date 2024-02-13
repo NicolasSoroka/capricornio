@@ -37,7 +37,7 @@ export default function SimpleSlider() {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="-z-50">
       <div className="h-[250px] md:h-[650px] w-full">
         <video src="./home/video.mp4" muted autoPlay loop></video>
       </div>

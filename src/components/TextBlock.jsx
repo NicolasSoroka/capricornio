@@ -1,7 +1,7 @@
 const TextBlock = () => {
   return (
     <div className="md:overflow-hidden flex flex-col md:flex-row justify-center items-center md:items-start p-10 gap-y-8 md:my-20 md:p-0">
-      <div className="text-3xl md:text-[39px] font-semibold md:font-bold md:tracking-widest text-slate-500 leading-none">
+      <div className="-z-50 text-3xl md:text-[39px] font-semibold md:font-bold md:tracking-widest text-slate-500 leading-none">
         <h2 className="relative -left-4">_denim com</h2>
         <h2 className="relative left-16">verdade</h2>
       </div>
