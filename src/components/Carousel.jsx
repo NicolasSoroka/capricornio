@@ -8,7 +8,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", position: 'absolute', top: '0', right: '0', background: "red" }}
+      style={{ ...style, display: "flex", alignItems: 'center', right: '10px', zIndex: '40' }}
       onClick={onClick}
     />
   );
@@ -19,13 +19,13 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", position: 'absolute', top: '0', left: '0', background: 'green' }}
+      style={{ ...style, display: 'flex', alignItems: 'center', left: '10px', zIndex: '40'}}
       onClick={onClick}
     />
   );
 }
 
-export default function SimpleSlider() {
+const Carousel = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -33,18 +33,45 @@ export default function SimpleSlider() {
     slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />
+    prevArrow: <SamplePrevArrow />,
+    // appendDots: dots => (
+    //   <div
+    //     style={{
+    //       backgroundColor: "#ddd",
+    //       borderRadius: "10px",
+    //       padding: "10px"
+    //     }}
+    //   >
+    //     <ul style={{ margin: "0px" }}> {dots} </ul>
+    //   </div>
+    // ),
+    // customPaging: i => (
+    //   <div
+    //     style={{
+    //       width: "30px",
+    //       color: "blue",
+    //       border: "1px blue solid"
+    //     }}
+    //   >
+    //     {i + 1}
+    //   </div>
+    // )
+
   };
 
   return (
-    <Slider {...settings} className="-z-50">
-      <div className="h-[250px] md:h-[650px] w-full">
+    <Slider {...settings} className="-z-50 relative">
+      <div className="h-[250px] md:h-[650px] w-full border-2 border-blue-600">
         <video src="./home/video.mp4" muted autoPlay loop></video>
       </div>
       <div className="h-[250px]">
+        hola
       </div>
       <div className="h-[250px]">
+        slide 3
       </div>
     </Slider>
   );
 }
+
+export default Carousel

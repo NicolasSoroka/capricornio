@@ -1,6 +1,0 @@
-texto/link que se oscurece al hover
-texto que parece barriendo
-banner con animaciones
-
-    home
-    productos

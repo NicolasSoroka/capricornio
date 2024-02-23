@@ -15,7 +15,7 @@ const ProductsPage = () => {
 
   return (
     <>
-      <ul className="flex flex-col gap-y-8 p-8 w-full border-2 border-blue-600">
+      <ul className="flex flex-col gap-y-8 px-8 pb-8 w-full">
         <li
           className="w-full cursor-pointer h-[150px] bg-black"
           onClick={() => handleModal(0)}

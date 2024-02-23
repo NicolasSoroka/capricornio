@@ -4,7 +4,8 @@ import TextBlock from '../components/TextBlock'
 const HomePage = () => {
   return (
     <>
-      <Carousel height={'350px'}/>
+      <Carousel />
+      <Carousel/>
       <TextBlock/>
     </>
   )
