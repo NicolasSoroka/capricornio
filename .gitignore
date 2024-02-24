@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+public/products/articulos/*
+public/products/muestras/*
+
+public
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
