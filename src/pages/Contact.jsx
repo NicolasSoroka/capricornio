@@ -4,7 +4,7 @@ const ContactPage = () => {
   return (
     <div>
       <img
-        src="../public/contacto/contacto.webp"
+        src="../public/contact/contacto.webp"
         alt="hero"
         className="w-full h-[230px] md:h-[800px] md:object-cover"
       />

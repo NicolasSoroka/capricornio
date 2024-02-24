@@ -1,0 +1,236 @@
+[
+  {
+    "name": "ALGARVE_LIGHT",
+    "articulo": "./articulo/ALGARVE_LIGHT.png",
+    "muestra": "./muestra/ALGARVE_LIGHT.png",
+    "titulo": "Algarve Light",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "ALGARVE_LIGHT_ANGEL_BLUE",
+    "articulo": "./articulo/ALGARVE_LIGHT_ANGEL_BLUE.png",
+    "muestra": "./muestra/ALGARVE_LIGHT_ANGEL_BLUE.png",
+    "titulo": "Algarve Light Angel Blue",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "ALGARVE_LIGHT_BABY",
+    "articulo": "./articulo/ALGARVE_LIGHT_BABY.png",
+    "muestra": "./muestra/ALGARVE_LIGHT_BABY.png",
+    "titulo": "Algarve Light Baby",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "ALGARVE_LIGHT_BLACK",
+    "articulo": "./articulo/ALGARVE_LIGHT_BLACK.png",
+    "muestra": "./muestra/ALGARVE_LIGHT_BLACK.png",
+    "titulo": "Algarve Light Black",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "BORBA",
+    "articulo": "./articulo/BORBA.png",
+    "muestra": "./muestra/BORBA.png",
+    "titulo": "Borba",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "BORBA_ANGEL_BLUE",
+    "articulo": "./articulo/BORBA_ANGEL_BLUE.png",
+    "muestra": "./muestra/BORBA_ANGEL_BLUE.png",
+    "titulo": "Borba Angel Blue",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "BORBA_BABY_BLUE",
+    "articulo": "./articulo/BORBA_BABY_BLUE.png",
+    "muestra": "./muestra/BORBA_BABY_BLUE.png",
+    "titulo": "Borba Baby Blue",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "CARNABY",
+    "articulo": "./articulo/CARNABY.png",
+    "muestra": "./muestra/CARNABY.png",
+    "titulo": "Carnaby",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "FEBE",
+    "articulo": "./articulo/FEBE.png",
+    "muestra": "./muestra/FEBE.png",
+    "titulo": "Febe",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "FEBE_BABY_BLUE",
+    "articulo": "./articulo/FEBE_BABY_BLUE.png",
+    "muestra": "./muestra/FEBE_BABY_BLUE.png",
+    "titulo": "Febe Baby Blue",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "FEBE_BLACK",
+    "articulo": "./articulo/FEBE_BLACK.png",
+    "muestra": "./muestra/FEBE_BLACK.png",
+    "titulo": "Febe Black",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "FEBE_BLUE_BLACK",
+    "articulo": "./articulo/FEBE_BLUE_BLACK.png",
+    "muestra": "./muestra/FEBE_BLUE_BLACK.png",
+    "titulo": "Febe Blue Black",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "FEBE_BP",
+    "articulo": "./articulo/FEBE_BP.png",
+    "muestra": "./muestra/FEBE_BP.png",
+    "titulo": "Febe BP",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "GUGA",
+    "articulo": "./articulo/GUGA.png",
+    "muestra": "./muestra/GUGA.png",
+    "titulo": "Guga",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "GUGA_BABY_BLUE",
+    "articulo": "./articulo/GUGA_BABY_BLUE.png",
+    "muestra": "./muestra/GUGA_BABY_BLUE.png",
+    "titulo": "Guga Baby Blue",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "IBIRA_FLEX",
+    "articulo": "./articulo/IBIRA_FLEX.png",
+    "muestra": "./muestra/IBIRA_FLEX.png",
+    "titulo": "Ibira Flex",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "IBIRA_FLEX_BABY_BLUE",
+    "articulo": "./articulo/IBIRA_FLEX_BABY_BLUE.png",
+    "muestra": "./muestra/IBIRA_FLEX_BABY_BLUE.png",
+    "titulo": "Ibira Flex Baby Blue",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "IBIRA_FLEX_BLACK",
+    "articulo": "./articulo/IBIRA_FLEX_BLACK.png",
+    "muestra": "./muestra/IBIRA_FLEX_BLACK.png",
+    "titulo": "Ibira Flex Black",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "IBIRA_FLEX_BLACK_BLACK",
+    "articulo": "./articulo/IBIRA_FLEX_BLACK_BLACK.png",
+    "muestra": "./muestra/IBIRA_FLEX_BLACK_BLACK.png",
+    "titulo": "Ibira Flex Black Black",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "MALI",
+    "articulo": "./articulo/MALI.png",
+    "muestra": "./muestra/MALI.png",
+    "titulo": "Mali",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "TRONCOSO",
+    "articulo": "./articulo/TRONCOSO.png",
+    "muestra": "./muestra/TRONCOSO.png",
+    "titulo": "Troncoso",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "TRONCOSO_ANGEL_BLUE",
+    "articulo": "./articulo/TRONCOSO_ANGEL_BLUE.png",
+    "muestra": "./muestra/TRONCOSO_ANGEL_BLUE.png",
+    "titulo": "Troncoso Angel Blue",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "TRONCOSO_MAX_BABY",
+    "articulo": "./articulo/TRONCOSO_MAX_BABY.png",
+    "muestra": "./muestra/TRONCOSO_MAX_BABY.png",
+    "titulo": "Troncoso Max Baby",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "TRONCOSO_MAX_BLACK_BP",
+    "articulo": "./articulo/TRONCOSO_MAX_BLACK_BP.png",
+    "muestra": "./muestra/TRONCOSO_MAX_BLACK_BP.png",
+    "titulo": "Troncoso Max Black BP",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "TRONCOSO_MAX_BLUE_BLACK",
+    "articulo": "./articulo/TRONCOSO_MAX_BLUE_BLACK.png",
+    "muestra": "./muestra/TRONCOSO_MAX_BLUE_BLACK.png",
+    "titulo": "Troncoso Max Blue Black",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  },
+  {
+    "name": "TRONCOSO_MAX_BP",
+    "articulo": "./articulo/TRONCOSO_MAX_BP.png",
+    "muestra": "./muestra/TRONCOSO_MAX_BP.png",
+    "titulo": "Troncoso Max BP",
+    "oz": "10",
+    "desc": "Description of Element 1",
+    "color": "Blue"
+  }
+]

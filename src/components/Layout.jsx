@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
           <ContactButton />
         </span>
       </header>
-      <main className="mt-[230px] md:mt-0 w-full">{children}</main>
+      <main className="mt-[230px] md:mt-[130px] w-full">{children}</main>
       <Footer />
 
       <WhatsappButton />

@@ -2,6 +2,7 @@ import { useState } from "react";
 import ProductModal from "../components/ProductModal";
 import useEscapeKey from "../hooks/useEscapeKey";
 import { motion, AnimatePresence } from "framer-motion";
+import ProductGallery from "../components/ProductGallery";
 
 const ProductsPage = () => {
   const [isModalShown, setIsModalShown] = useState(false);
@@ -15,7 +16,7 @@ const ProductsPage = () => {
 
   return (
     <>
-      <ul className="flex flex-col gap-y-8 px-8 pb-8 w-full">
+      {/* <ul className="flex flex-col gap-y-8 px-8 pb-8 w-full">
         <li
           className="w-full cursor-pointer h-[150px] bg-black"
           onClick={() => handleModal(0)}
@@ -40,7 +41,9 @@ const ProductsPage = () => {
           className="w-full cursor-pointer h-[150px] bg-black"
           onClick={() => handleModal(5)}
         ></li>
-      </ul>
+      </ul> */}
+
+      <ProductGallery/>
 
       <AnimatePresence>
         {isModalShown && (
