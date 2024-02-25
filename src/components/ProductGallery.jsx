@@ -14,7 +14,7 @@ const ProductGallery = () => {
     color: "Blue",
   });
 
-  const [isActive, setIsActive] = useState(0)
+  const [isActive, setIsActive] = useState(0);
 
   return (
     <div className="relative flex w-full h-[calc(100vh-100px)]">
@@ -27,19 +27,19 @@ const ProductGallery = () => {
                 src={element.muestra}
                 alt={element.titulo}
                 key={element.name}
-                test={index}
+                pos={index}
                 isActive={isActive === index}
                 onClick={() => {
-                  setIsActive(index)
-                  setSelectedProduct(element)}
-                }
+                  setIsActive(index);
+                  setSelectedProduct(element);
+                }}
               />
             );
           }
         })}
       </ul>
-      <Articulo product={selectedProduct}/>
-      <ul className="flex flex-col gap-y-4 overflow-y-scroll no-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8  ">
+      <Articulo product={selectedProduct} />
+      <ul className="flex flex-col gap-y-4 overflow-y-scroll no-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8">
         {products.map((element, index) => {
           if (index <= products.length / 2) return;
           else {
@@ -48,12 +48,12 @@ const ProductGallery = () => {
                 src={element.muestra}
                 alt={element.titulo}
                 key={element.name}
-                test={index}
+                pos={index - products.length / 2 - 1}
                 isActive={isActive === index}
                 onClick={() => {
-                  setIsActive(index)
-                  setSelectedProduct(element)}
-                }
+                  setIsActive(index);
+                  setSelectedProduct(element);
+                }}
               />
             );
           }

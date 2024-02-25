@@ -43,7 +43,7 @@ const ProductsPage = () => {
         ></li>
       </ul> */}
 
-      <ProductGallery/>
+      <ProductGallery />
 
       <AnimatePresence>
         {isModalShown && (

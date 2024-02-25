@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, ScrollRestoration } from "react-router-dom";
 import BurgerMenu from "./BurgerMenu";
 import ContactButton from "./ContactButton";
 import Footer from "./Footer";
@@ -42,6 +42,7 @@ const Layout = ({ children }) => {
       <main className="mt-[230px] md:mt-[100px] w-full">{children}</main>
       <Footer />
       <WhatsappButton />
+      <ScrollRestoration />
     </div>
   );
 };
