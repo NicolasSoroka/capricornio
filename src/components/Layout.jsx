@@ -24,18 +24,23 @@ const Layout = ({ children }) => {
         </div>
       </header>
 
-      <header className="hidden md:flex md:fixed h-[130px] z-50 w-full bg-white items-center justify-center">
-        <span className="flex w-1/3">
-          <BurgerMenu />
-        </span>
-        <img src="../../public/logo.webp" alt="logo_capricornio" />
-        <span className="flex flex-col items-center w-1/3">
+      <header className="hidden md:flex md:fixed h-[100px] z-50 w-full bg-white items-center justify-evenly">
+        <div className="flex w-full justify-center">
           <ContactButton />
-        </span>
+        </div>
+        <div className="flex w-full justify-center">
+        <img
+          src="../../public/logo.webp"
+          alt="logo_capricornio"
+          className=""
+          />
+          </div>
+        <div className="flex w-full justify-center">
+        <BurgerMenu />
+        </div>
       </header>
-      <main className="mt-[230px] md:mt-[130px] w-full">{children}</main>
+      <main className="mt-[230px] md:mt-[100px] w-full">{children}</main>
       <Footer />
-
       <WhatsappButton />
     </div>
   );

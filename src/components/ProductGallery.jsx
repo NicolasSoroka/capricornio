@@ -1,33 +1,64 @@
 import React, { useState } from "react";
-
-
+import products from "../../public/products/data.json";
+import Muestra from "./Muestra";
+import Articulo from "./Articulo";
 
 const ProductGallery = () => {
-  const [first, setfirst] = useState(0)
+  const [selectedProduct, setSelectedProduct] = useState({
+    name: "ALGARVE_LIGHT",
+    articulo: "../public/products/articulos/ALGARVE_LIGHT.png",
+    muestra: "../public/products/muestras/ALGARVE_LIGHT.png",
+    titulo: "Algarve Light",
+    oz: "10",
+    desc: "Description of Element 1",
+    color: "Blue",
+  });
 
+  const [isActive, setIsActive] = useState(0)
 
   return (
-    <div className="relative flex w-full h-[500px]">
-      <div className="flex flex-col gap-y-4 max-h-[600px] overflow-y-scroll items-center justify-center border-2 border-red-600 w-full max-w-[400px] py-4 ">
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-      </div>
-      <div className="flex items-center justify-center border-2 border-red-600 w-full">
-        {first}
-      </div>
-      <div className="flex flex-col gap-y-4 max-h-[600px] overflow-y-scroll items-center justify-center border-2 border-red-600 w-full max-w-[400px] py-4  ">
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-        <div className="w-[300px] min-h-[150px] bg-red-400"> img</div>
-      </div>
+    <div className="relative flex w-full h-[calc(100vh-100px)]">
+      <ul className="flex flex-col gap-y-4 overflow-y-scroll no-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 ">
+        {products.map((element, index) => {
+          if (index > products.length / 2) return;
+          else {
+            return (
+              <Muestra
+                src={element.muestra}
+                alt={element.titulo}
+                key={element.name}
+                test={index}
+                isActive={isActive === index}
+                onClick={() => {
+                  setIsActive(index)
+                  setSelectedProduct(element)}
+                }
+              />
+            );
+          }
+        })}
+      </ul>
+      <Articulo product={selectedProduct}/>
+      <ul className="flex flex-col gap-y-4 overflow-y-scroll no-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8  ">
+        {products.map((element, index) => {
+          if (index <= products.length / 2) return;
+          else {
+            return (
+              <Muestra
+                src={element.muestra}
+                alt={element.titulo}
+                key={element.name}
+                test={index}
+                isActive={isActive === index}
+                onClick={() => {
+                  setIsActive(index)
+                  setSelectedProduct(element)}
+                }
+              />
+            );
+          }
+        })}
+      </ul>
     </div>
   );
 };
