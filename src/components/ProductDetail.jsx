@@ -4,7 +4,7 @@ const ProductDetail = ({details}) => {
   return (
     <div className="flex flex-col border-l min-w-[200px] max-w-[300px]">
       <div className=" relative w-full h-full border-l-[2px] border-black">
-        <p className=" pl-4 pb-1 ">{details.titulo}</p>
+        <p className=" pl-4 pb-1">{details.titulo}</p>
         <p className="w-full pl-4 py-1 border-t-[2px] border-black">{details.desc}</p>
         <p className="w-full pl-4 py-1 border-t-[2px] border-black">{details.oz}</p>
         <p className="w-full pl-4 pt-1 border-t-[2px] border-black">{details.color}</p>
