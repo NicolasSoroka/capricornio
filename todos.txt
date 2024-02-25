@@ -1,2 +1,3 @@
-scrollbars en products
-cuando te moves de pagina, que aparezca arriba de todo
+revisar que coincida texto-muestra-articulo
+
+agregar "show more" en mobile al listar las muestras

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion"
 
-const Muestra = ({ name, src, alt, onClick, isActive, pos }) => {
+const Muestra = ({ name, src, alt, onClick, isActive, pos, fixedRate = false }) => {
   const fadeInOrder = {
     visible: (i) => ({
       opacity: 1,
@@ -19,7 +19,7 @@ const Muestra = ({ name, src, alt, onClick, isActive, pos }) => {
       }`}
       onClick={onClick}
       key={name}
-      custom={pos}
+      custom={fixedRate ? 1 : pos}
       variants={fadeInOrder}
       initial="hidden"
       animate="visible"

@@ -1,6 +1,6 @@
 //crear un json con los valores de cada modal, cada elemento se selecciona por el id
 
-const ProductModal = ({ value, handleClose }) => {
+const ProductModal = ({ article, handleClose }) => {
   return (
     <div onClick={() => handleClose()} className="flex items-center fixed top-0 w-full h-screen z-50 bg-white opacity-80">
       <div className="relative bg-black h-[400px] w-full mx-4 p-4">
@@ -17,3 +17,4 @@ const ProductModal = ({ value, handleClose }) => {
 };
 
 export default ProductModal;
+
