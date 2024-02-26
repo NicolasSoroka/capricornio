@@ -1,3 +1,4 @@
 revisar que coincida texto-muestra-articulo
 
-agregar "show more" en mobile al listar las muestras
+agregar link a whatsapp
+manejar el uso del formulario de contacto

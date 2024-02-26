@@ -5,7 +5,6 @@ const HomePage = () => {
   return (
     <>
       <Carousel />
-      <Carousel/>
       <TextBlock/>
     </>
   )

@@ -9,7 +9,6 @@ import Muestra from "./Muestra";
 const MobileGallery = () => {
   const [isModalShown, setIsModalShown] = useState(false);
   const [amountToShow, setAmountToShow] = useState(5);
-  const [isActive, setIsActive] = useState(0);
 
   const [selectedProduct, setSelectedProduct] = useState({
     name: "ALGARVE_LIGHT",
@@ -41,11 +40,7 @@ const MobileGallery = () => {
                 key={element.name}
                 pos={index}
                 fixedRate={true}
-                isActive={isActive === index}
-                onClick={() => {
-                  setIsActive(index);
-                  handleModal(element);
-                }}
+                onClick={() => { handleModal(element)}}
               />
             );
           }
