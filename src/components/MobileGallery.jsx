@@ -36,8 +36,9 @@ const MobileGallery = () => {
             return (
               <Muestra
                 src={element.muestra}
-                alt={element.titulo}
+                alt={element.name}
                 key={element.name}
+                name={element.titulo}
                 pos={index}
                 fixedRate={true}
                 onClick={() => { handleModal(element)}}

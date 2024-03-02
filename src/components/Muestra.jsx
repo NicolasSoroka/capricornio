@@ -14,7 +14,7 @@ const Muestra = ({ name, src, alt, onClick, isActive, pos, fixedRate = false }) 
 
   return (
     <motion.li
-      className={`cursor-pointer ${
+      className={`cursor-pointer flex flex-col items-center ${
         isActive ? "outline-dashed outline-2 outline-offset-2" : ""
       }`}
       onClick={onClick}
@@ -30,6 +30,7 @@ const Muestra = ({ name, src, alt, onClick, isActive, pos, fixedRate = false }) 
         src={src}
         loading="lazy"
       />
+      <h3 className="text-2xl text-black flex h-[30px]">{name}</h3>
     </motion.li>
   );
 };

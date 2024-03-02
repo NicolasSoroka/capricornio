@@ -32,7 +32,8 @@ const ProductGallery = () => {
             return (
               <Muestra
                 src={element.muestra}
-                alt={element.titulo}
+                alt={element.alt}
+                name={element.titulo}
                 key={element.name}
                 pos={index}
                 isActive={isActive === index}
@@ -53,7 +54,8 @@ const ProductGallery = () => {
             return (
               <Muestra
                 src={element.muestra}
-                alt={element.titulo}
+                alt={element.alt}
+                name={element.titulo}
                 key={element.name}
                 pos={index - products.length / 2 - 1}
                 isActive={isActive === index}
