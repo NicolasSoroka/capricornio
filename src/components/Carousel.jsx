@@ -2,6 +2,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import VanishingText from "./VanishingText";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -27,7 +28,7 @@ function SamplePrevArrow(props) {
 
 const Carousel = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -60,14 +61,16 @@ const Carousel = () => {
   };
 
   return (
-    <Slider {...settings} className="-z-50 relative">
-      <div className="h-[250px] md:h-[650px] w-full border-2 border-blue-600">
-        <video src="./home/video.mp4" muted autoPlay loop></video>
+    <Slider {...settings} className="relative">
+      <div className="relative min-h-[350px] h-full w-full">
+        <video className="flex h-full absolute top-0 object-cover" src="./home/video.mp4" muted autoPlay loop></video>
+        <VanishingText text='vanishing text test' top="200" size="text-2xl"/>
+        <VanishingText text='vanishing text test' top="200" size="text-2xl"/>
       </div>
-      <div className="h-[250px]">
+      <div className="min-h-[350px] h-full border-2 border-red-600">
         hola
       </div>
-      <div className="h-[250px]">
+      <div className="min-h-[350px] h-full border-2 border-red-600">
         slide 3
       </div>
     </Slider>

@@ -7,7 +7,7 @@ const AboutPage = () => {
         muted
         autoPlay
         loop
-      ></video>
+      />
       <h2>_somos</h2>
       <h2>de verdade</h2>
 
@@ -23,7 +23,7 @@ const AboutPage = () => {
 
       <h3>Somos apaixonados por pessoas, pelo jeans e pelo nosso negócio!</h3>
 
-      <div className="md:relative flex justify-center p-8 md:p-0 h-[250px] md:h-[475px] w-[830px]">
+      <div className="overflow-hidden md:relative flex justify-center md:p-0 h-[200px] md:h-[475px] md:w-[830px] md:max-w-none max-w-[360px] w-[330px] my-8">
         <img
           src="../public/about/watermark.webp"
           alt="watermark_About"

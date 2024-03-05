@@ -9,8 +9,18 @@ export default {
       fontFamily: {
         'sans': ['Neue','Roboto', 'Helvetica', 'Arial', 'sans-serif'],
         'didot': ['Didot','Roboto', 'Helvetica', 'Arial', 'sans-serif']
+      },
+      keyframes: {
+        reduceWidth: {
+          '0%' : { width: '100%'},
+          '100%' : { width: '5%'}
+        }
+      },
+      animation: {
+        reduceWidth: 'reduceWidth 1s ease-in-out alternate infinite',
       }
     },
+    
   },
   plugins: [],
 }
