@@ -77,7 +77,6 @@ let settings = {
 const HomePage = () => {
   return (
     <>
-      {/* <Slider 1 /> */}
       <Slider {...settings} className="relative">
         <div className="relative min-h-[350px] h-full w-full">
           <video
@@ -90,13 +89,26 @@ const HomePage = () => {
           <VanishingText text="vanishing text test" top="200" size="text-2xl" />
           <VanishingText text="vanishing text test" top="200" size="text-2xl" />
         </div>
-        <div className="min-h-[350px] h-full border-2 border-red-600">hola</div>
-        <div className="min-h-[350px] h-full border-2 border-red-600">
-          slide 3
+        <div className="flex relative min-h-[350px] h-[350px] md:h-full w-full">
+          <img
+            src="./home/banner-2.webp"
+            alt=""
+            className="flex absolute w-full h-full object-cover"
+          />
+          <VanishingText text="vanishing text test" top="200" size="text-2xl" />
+          <VanishingText text="vanishing text test" top="200" size="text-2xl" />
+        </div>
+        <div className="flex relative h-[350px] md:h-full w-full">
+          <img
+            src="./home/banner-1.webp"
+            alt=""
+            className="flex w-full h-full absolute object-cover"
+          />
+            <VanishingText text="texto 111111" top="200" left="200" size="text-2xl" />
+            <VanishingText text="2222 text test" top="200" size="text-2xl" />
         </div>
       </Slider>
 
-      {/* <Slider 2 /> */}
       <Slider {...settings} className="relative">
         <div className="relative min-h-[350px] h-full w-full"></div>
         <div className="min-h-[350px] h-full border-2 border-red-600">hola</div>
@@ -106,7 +118,6 @@ const HomePage = () => {
       </Slider>
 
       <TextBlock />
-      {/* <Slider 3 /> */}
       <Slider {...settings} className="relative">
         <div className="relative min-h-[350px] h-full w-full"></div>
         <div className="min-h-[350px] h-full border-2 border-red-600">hola</div>
