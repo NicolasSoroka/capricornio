@@ -1,10 +1,10 @@
 
 agregar link a whatsapp
-manejar el uso del formulario de contacto
+formulario de contacto
 
 hacer animaciones de la home (framer)
-acomodar vanishing text
-
 
 revision final mobile
 revision final desktop
+
+logo en la home

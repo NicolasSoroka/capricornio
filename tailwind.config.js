@@ -17,7 +17,7 @@ export default {
         }
       },
       animation: {
-        reduceWidth: 'reduceWidth 1s ease-in-out alternate infinite',
+        reduceWidth: 'reduceWidth 2s ease alternate infinite',
       }
     },
     
