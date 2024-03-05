@@ -26,16 +26,16 @@ const BurgerMenu = ({ isMenuOpen }) => {
         </span>
         <ul className="flex flex-col text-center text-white font-bold uppercase gap-y-2 ">
           <li className="hover:text-slate-800" onClick={handleMenuOpen}>
-            <Link to="/">Home</Link>
+            <Link className="px-4 py-2" to="/">Home</Link>
           </li>
           <li className="hover:text-slate-800" onClick={handleMenuOpen}>
-            <Link to="/nosotros">Quiénes somos</Link>
+            <Link className="px-4 py-2" to="/nosotros">Quiénes somos</Link>
           </li>
           <li className="hover:text-slate-800" onClick={handleMenuOpen}>
-            <Link to="/productos">Productos</Link>
+            <Link className="px-4 py-2" to="/productos">Productos</Link>
           </li>
           <li className="hover:text-slate-800" onClick={handleMenuOpen}>
-            <Link to="/contacto">Contacto</Link>
+            <Link className="px-4 py-2" to="/contacto">Contacto</Link>
           </li>
         </ul>
       </div>

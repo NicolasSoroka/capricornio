@@ -1,6 +1,7 @@
 import igLogo from "../../public/ig.svg";
 import fbLogo from "../../public/fb.svg";
 import ytLogo from "../../public/yt.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,8 +30,8 @@ const Footer = () => {
 
       <div className="hidden md:flex w-full h-[180px] justify-center items-center gap-x-20 bg-slate-400">
         <div className="flex flex-col gap-y-2 text-left uppercase text-xs font-bold text-white tracking-widest">
-          <p>home</p>
-          <p>productos</p>
+          <Link to={'/'}>home</Link>
+          <Link to={'/productos'}>productos</Link>
         </div>
         <div className="flex gap-x-3">
           <span className="flex justify-center items-center bg-white rounded-full w-[30px] h-[30px]">
@@ -44,8 +45,8 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex flex-col gap-y-2 text-right uppercase text-xs font-bold text-white tracking-widest">
-          <p>sustent</p>
-          <p>quienes somos</p>
+          <Link to={'/contacto'}>contacto</Link>
+          <Link to={'/nosotros'}>quienes somos</Link>
         </div>
       </div>
 
