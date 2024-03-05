@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center w-full h-[120px] md:h-[50px] text-center text-xs gap-y-1">
+      <div className="flex flex-col items-center justify-center w-full h-[70px] md:h-[50px] text-center text-xs gap-y-1">
         <p>AV. ANGÉLICA, 2250 . 9º ANDAR . SÃO PAULO, BRASIL</p>
         <p>© 2023 TODOS OS DIREITOS RESERVADOS</p>
       </div>

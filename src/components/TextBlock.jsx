@@ -7,14 +7,13 @@ const TextBlock = () => {
       </div>
       <div>
         <h2 className="text-2xl font-bold md:font-extrabold md:text-[25px] text-slate-700 tracking-widest">
-          Olá, somos
+          Hola, somos
         </h2>
         <h2 className="text-2xl font-bold md:font-extrabold md:text-[25px] text-slate-700 tracking-widest">
-          a Capricórnio
+          Capricórnio
         </h2>
         <p className="text-xl font-semibold text-slate-400 w-[280px] md:w-[320px] mt-2 md:text-[19px] md:font-extrabold tracking-widest">
-          e produzimos o Denim, que e a materia-prima do grande representante da
-          moda da vida real, o Jeans
+        Somos distribuidora líder en Argentina desde hace más de una década, especializada en tela denim y gabardina, representando de manera exclusiva a Capricornio Textil, prestigiosa empresa brasileña con más de 75 años de experiencia en la industria.
         </p>
       </div>
     

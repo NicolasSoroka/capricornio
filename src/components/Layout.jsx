@@ -18,10 +18,9 @@ const Layout = ({ children }) => {
           <span className="flex w-1/3"></span>
           <span className="flex flex-col items-center w-1/3 gap-y-2">
             <ContactButton />
-            <BurgerMenu />
           </span>
-          <span className="flex w-1/3">{/* <BurgerMenu /> */}</span>
         </div>
+        <BurgerMenu />
       </header>
 
       <header className="hidden md:flex md:fixed h-[100px] z-50 w-full bg-white items-center justify-evenly">
@@ -29,17 +28,20 @@ const Layout = ({ children }) => {
           <ContactButton />
         </div>
         <div className="flex w-full justify-center">
-        <img
-          src="../../public/logo.webp"
-          alt="logo_capricornio"
-          className=""
+          <img
+            src="../../public/logo.webp"
+            alt="logo_capricornio"
+            className=""
           />
-          </div>
+        </div>
         <div className="flex w-full justify-center">
-        <BurgerMenu />
+          <BurgerMenu />
         </div>
       </header>
-      <main className="mt-[230px] md:mt-[100px] w-full">{children}</main>
+
+      <main className="relative mt-[230px] md:mt-[100px] w-full">
+        {children}
+      </main>
       <Footer />
       <WhatsappButton />
       <ScrollRestoration />

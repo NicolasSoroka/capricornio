@@ -77,8 +77,8 @@ let settings = {
 const HomePage = () => {
   return (
     <>
-      <Slider {...settings} className="relative">
-        <div className="relative min-h-[350px] h-full w-full">
+      <Slider {...settings}>
+        <div className="relative min-h-[350px] h-full w-full z-auto">
           <video
             className="flex h-full absolute top-0 object-cover"
             src="./home/video.mp4"
@@ -104,12 +104,17 @@ const HomePage = () => {
             alt=""
             className="flex w-full h-full absolute object-cover"
           />
-            <VanishingText text="texto 111111" top="200" left="200" size="text-2xl" />
-            <VanishingText text="2222 text test" top="200" size="text-2xl" />
+          <VanishingText
+            text="texto 111111"
+            top="200"
+            left="200"
+            size="text-2xl"
+          />
+          <VanishingText text="2222 text test" top="200" size="text-2xl" />
         </div>
       </Slider>
 
-      <Slider {...settings} className="relative">
+      {/* <Slider {...settings} className="relative">
         <div className="relative min-h-[350px] h-full w-full"></div>
         <div className="min-h-[350px] h-full border-2 border-red-600">hola</div>
         <div className="min-h-[350px] h-full border-2 border-red-600">
@@ -124,7 +129,7 @@ const HomePage = () => {
         <div className="min-h-[350px] h-full border-2 border-red-600">
           slide 3
         </div>
-      </Slider>
+      </Slider> */}
     </>
   );
 };

@@ -12,7 +12,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="flex flex-col w-ful p-6 font-sans font-bold tracking-wider"
+      className="flex flex-col w-full px-6 font-sans font-bold tracking-wider"
     >
       <label
         className="mb-3 text-sm font-extrabold tracking-widest"

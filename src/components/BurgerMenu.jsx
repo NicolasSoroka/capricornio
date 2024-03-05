@@ -10,12 +10,12 @@ const BurgerMenu = ({ isMenuOpen }) => {
     setIsBurgerMenuOpen((prev) => !prev);
   };
 
-  useEscapeKey(()=> setIsBurgerMenuOpen(false));
+  useEscapeKey(() => setIsBurgerMenuOpen(false));
 
   return (
     <>
       <div
-        className={`absolute left-0 flex justify-center items-center z-10 w-full h-dvh   bg-slate-500 opacity-90 transition-all duration-700
+        className={`absolute left-0 flex justify-center items-center z-50 w-full h-dvh bg-slate-500 opacity-90 transition-all duration-700
           ${isBurgerMenuOpen ? "top-0" : "-top-[1000px]"}`}
       >
         <span
@@ -29,7 +29,7 @@ const BurgerMenu = ({ isMenuOpen }) => {
             <Link to="/">Home</Link>
           </li>
           <li className="hover:text-slate-800" onClick={handleMenuOpen}>
-            <Link to="/nosotros">Quienes somos</Link>
+            <Link to="/nosotros">Quiénes somos</Link>
           </li>
           <li className="hover:text-slate-800" onClick={handleMenuOpen}>
             <Link to="/productos">Productos</Link>
