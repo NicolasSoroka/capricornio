@@ -1,10 +1,8 @@
 
 agregar link a whatsapp
 formulario de contacto
+link a redes sociales
 
-hacer animaciones de la home (framer)
-
-revision final mobile
 revision final desktop
 
 logo en la home
