@@ -2,7 +2,6 @@
 agregar link a whatsapp
 formulario de contacto
 link a redes sociales
+ordenar footer
 
 revision final desktop
-
-logo en la home

@@ -28,31 +28,37 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="hidden md:flex w-full h-[180px] justify-center items-center gap-x-20 bg-slate-400">
-        <div className="flex flex-col gap-y-2 text-left uppercase text-xs font-bold text-white tracking-widest">
-          <Link to={'/'}>home</Link>
-          <Link to={'/productos'}>productos</Link>
+      <div className="hidden md:flex w-full h-[130px] justify-center items-center gap-x-20 bg-slate-400 md:flex-col">
+        <div className="flex">
+          <div className="flex flex-col gap-y-2 text-left uppercase text-xs font-bold text-white tracking-widest">
+            <Link to={"/"}>home</Link>
+            <Link to={"/productos"}>productos</Link>
+          </div>
+          <div className="flex gap-x-3">
+            <span className="flex justify-center items-center bg-white rounded-full w-[30px] h-[30px]">
+              <img src={igLogo} alt="ig" className="w-[18px] h-[18px]" />
+            </span>
+            <span className="flex justify-center items-center pt-2 bg-white rounded-full w-[30px] h-[30px]">
+              <img src={fbLogo} alt="ig" className="w-[24px] h-[24px]" />
+            </span>
+            <span className="flex justify-center items-center bg-white rounded-full w-[30px] h-[30px]">
+              <img src={ytLogo} alt="ig" className="w-[18px] h-[18px]" />
+            </span>
+          </div>
+          <div className="flex flex-col gap-y-2 text-right uppercase text-xs font-bold text-white tracking-widest">
+            <Link to={"/contacto"}>contacto</Link>
+            <Link to={"/nosotros"}>quienes somos</Link>
+          </div>
         </div>
-        <div className="flex gap-x-3">
-          <span className="flex justify-center items-center bg-white rounded-full w-[30px] h-[30px]">
-            <img src={igLogo} alt="ig" className="w-[18px] h-[18px]" />
-          </span>
-          <span className="flex justify-center items-center pt-2 bg-white rounded-full w-[30px] h-[30px]">
-            <img src={fbLogo} alt="ig" className="w-[24px] h-[24px]" />
-          </span>
-          <span className="flex justify-center items-center bg-white rounded-full w-[30px] h-[30px]">
-            <img src={ytLogo} alt="ig" className="w-[18px] h-[18px]" />
-          </span>
-        </div>
-        <div className="flex flex-col gap-y-2 text-right uppercase text-xs font-bold text-white tracking-widest">
-          <Link to={'/contacto'}>contacto</Link>
-          <Link to={'/nosotros'}>quienes somos</Link>
-        </div>
-      </div>
 
-      <div className="flex flex-col items-center justify-center w-full h-[70px] md:h-[50px] text-center text-xs gap-y-1">
-        <p>AV. ANGÉLICA, 2250 . 9º ANDAR . SÃO PAULO, BRASIL</p>
-        <p>© 2023 TODOS OS DIREITOS RESERVADOS</p>
+        <div className="flex flex-col items-center justify-center w-full h-[70px] md:h-[50px] text-center text-xs gap-y-1 md:text-white">
+          <p>AV. ANGÉLICA, 2250 . 9º ANDAR . SÃO PAULO, BRASIL</p>
+          {/* //todo dir bsas?  */}
+          {/* //todo revisar texto */}
+
+      {/* //todo dejar todo nivelado */}
+          <p>© 2023 TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
       </div>
     </footer>
   );

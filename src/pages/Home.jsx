@@ -365,11 +365,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-// <motion.h2
-// initial={{ opacity: 0, x: 100 }}
-// whileInView={{ opacity: 1, x: 0 }}
-// viewport={{ once: true }}
-// transition={{ duration: 0.8 }}
-// className=" tracking-widest absolute top-[245px] left-[70px] h-[40px] text-white font-semibold text-2xl"
-// >

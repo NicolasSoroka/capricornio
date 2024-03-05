@@ -12,7 +12,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="flex flex-col w-full px-6 font-sans font-bold tracking-wider"
+      className="flex flex-col w-full px-6 font-sans font-bold tracking-wider md:max-w-[700px]"
     >
       <label
         className="mb-3 text-sm font-extrabold tracking-widest"
@@ -95,7 +95,7 @@ const ContactForm = () => {
       <input
         type="submit"
         value="enviar"
-        className="w-[80%] m-auto bg-black text-white h-[50px] uppercase tracking-widest mt-6"
+        className="w-[80%] m-auto bg-black text-white h-[50px] uppercase tracking-widest mt-6 md:max-w-[200px]"
       />
     </form>
   );

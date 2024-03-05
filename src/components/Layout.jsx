@@ -27,13 +27,12 @@ const Layout = ({ children }) => {
         <div className="flex w-full justify-center">
           <ContactButton />
         </div>
-        <div className="flex w-full justify-center">
-          <img
-            src="../../public/logo.webp"
-            alt="logo_capricornio"
-            className=""
-          />
-        </div>
+        <Link
+          className="flex justify-center w-full text-sm font-extrabold uppercase tracking-widest"
+          to="/"
+        >
+          <img src="../../public/logo.webp" alt="logo_capricornio" />
+        </Link>
         <div className="flex w-full justify-center">
           <BurgerMenu />
         </div>
