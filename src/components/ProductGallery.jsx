@@ -25,7 +25,7 @@ const ProductGallery = () => {
 
   return (
     <div className="relative w-full h-[calc(100vh-100px)] hidden md:flex">
-      <ul className="flex flex-col gap-y-4 overflow-y-scroll no-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 ">
+      <ul className="flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 ">
         {products.map((element, index) => {
           if (index > products.length / 2) return;
           else {
@@ -47,7 +47,7 @@ const ProductGallery = () => {
         })}
       </ul>
       <Articulo product={selectedProduct} />
-      <ul className="flex flex-col gap-y-4 overflow-y-scroll no-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8">
+      <ul className="flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 scrollbar-left-container ">
         {products.map((element, index) => {
           if (index <= products.length / 2) return;
           else {

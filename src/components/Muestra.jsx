@@ -30,7 +30,7 @@ const Muestra = ({ name, src, alt, onClick, isActive, pos, fixedRate = false }) 
         src={src}
         loading="lazy"
       />
-      <h3 className="text-2xl text-black flex h-[30px]">{name}</h3>
+      <h3 className="text-2xl text-black flex h-[30px] tracking-widest">{name}</h3>
     </motion.li>
   );
 };
