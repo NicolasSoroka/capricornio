@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
   return (
     <div className='flex flex-col w-full h-lvh'>
       <header
-        className={`fixed md:hidden flex flex-col gap-y-2 pt-4 w-full bg-white items-center ${index}`}
+        className={`fixed md:hidden flex flex-col gap-y-2 py-6 w-full bg-white items-center z-50`}
       >
         <Link
           className='text-sm font-extrabold uppercase tracking-widest'
@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
         </div>
       </header>
 
-      <main className='relative md:mt-[100px] w-full'>{children}</main>
+      <main className='relative top-[200px] md:mt-[100px] z-auto w-full'>{children}</main>
       <Footer />
       <WhatsappButton />
       <ScrollRestoration />
