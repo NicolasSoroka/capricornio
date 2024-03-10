@@ -6,7 +6,7 @@ import WhatsappButton from './WhatsappButton'
 
 const Layout = ({ children }) => {
   return (
-    <div className='flex flex-col w-full h-lvh'>
+    <div className='relative flex flex-col w-full'>
       <header className='fixed md:hidden flex flex-col gap-y-2 py-6 w-full bg-white items-center z-50'>
         <Link
           className='text-sm font-extrabold uppercase tracking-widest'
@@ -18,9 +18,8 @@ const Layout = ({ children }) => {
         <BurgerMenu />
       </header>
 
-      <header className='hidden md:flex md:fixed h-[100px] z-50 w-full bg-white items-center justify-evenly'>
+      <header className='hidden md:flex h-[100px] md:max-w-[1440px] z-50 w-full py-6 bg-white items-center justify-evenly m-auto'>
         <div className='flex w-full justify-center'>
-          <ContactButton />
         </div>
         <Link
           className='flex justify-center w-full text-sm font-extrabold uppercase tracking-widest'
@@ -28,12 +27,13 @@ const Layout = ({ children }) => {
         >
           <img src='../../public/logo.webp' alt='logo_capricornio' />
         </Link>
-        <div className='flex w-full justify-center'>
+        <div className='flex w-full justify-end items-center gap-x-4 pr-12 '>
+          <ContactButton />
           <BurgerMenu />
         </div>
       </header>
 
-      <main className='relative mt-[200px] md:mt-[100px] z-auto w-full'>
+      <main className='relative mt-[200px] md:m-auto md:max-w-[1440px] md:mt-[100px] z-auto w-full'>
         {children}
       </main>
       <Footer />
