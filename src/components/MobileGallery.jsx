@@ -1,37 +1,37 @@
-import React from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import ProductModal from "./ProductModal";
-import { useState } from "react";
-import useEscapeKey from "../hooks/useEscapeKey";
-import products from "../../public/products/data.json";
-import Muestra from "./Muestra";
+import React from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import ProductModal from './ProductModal'
+import { useState } from 'react'
+import useEscapeKey from '../hooks/useEscapeKey'
+import products from '../../public/products/data.json'
+import Muestra from './Muestra'
 
 const MobileGallery = () => {
-  const [isModalShown, setIsModalShown] = useState(false);
-  const [amountToShow, setAmountToShow] = useState(5);
+  const [isModalShown, setIsModalShown] = useState(false)
+  const [amountToShow, setAmountToShow] = useState(5)
 
   const [selectedProduct, setSelectedProduct] = useState({
-    name: "ALGARVE_LIGHT",
-    articulo: "../public/products/articulos/ALGARVE_LIGHT.png",
-    muestra: "../public/products/muestras/ALGARVE_LIGHT.png",
-    titulo: "Algarve Light",
-    oz: "10",
-    desc: "Description of Element 1",
-    color: "Blue",
-  });
+    name: 'ALGARVE_LIGHT',
+    articulo: '../public/products/articulos/ALGARVE_LIGHT.png',
+    muestra: '../public/products/muestras/ALGARVE_LIGHT.png',
+    titulo: 'Algarve asdLight',
+    oz: '10',
+    desc: 'Description of Element 1',
+    color: 'Blue'
+  })
 
-  useEscapeKey(() => setIsModalShown(false));
+  useEscapeKey(() => setIsModalShown(false))
 
-  const handleModal = (element) => {
-    setIsModalShown((prev) => !prev);
-    setSelectedProduct(element);
-  };
+  const handleModal = element => {
+    setIsModalShown(prev => !prev)
+    setSelectedProduct(element)
+  }
 
   return (
     <>
-      <ul className="flex md:hidden flex-col gap-y-4 overflow-y-scroll no-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 ">
+      <ul className='flex md:hidden flex-col gap-y-4 overflow-y-scroll no-scrollbar bg-[#D9D9D9] items-center w-full z-50 mt-[180px] py-6'>
         {products.map((element, index) => {
-          if (index >= amountToShow) return;
+          if (index >= amountToShow) return
           else {
             return (
               <Muestra
@@ -41,16 +41,18 @@ const MobileGallery = () => {
                 name={element.titulo}
                 pos={index}
                 fixedRate={true}
-                onClick={() => { handleModal(element)}}
+                onClick={() => {
+                  handleModal(element)
+                }}
               />
-            );
+            )
           }
         })}
 
         {products.length - amountToShow > 0 && (
           <button
-            className="border border-black bg-white w-[115px] h-[35px] hover:bg-[#9B9B9B] transition-all duration-500	hover:border-zinc-300 hover:text-white text-sm font-extrabold uppercase tracking-widest"
-            onClick={() => setAmountToShow((prev) => prev + 5)}
+            className='border border-black bg-white w-[115px] h-[35px] hover:bg-[#9B9B9B] transition-all duration-500	hover:border-zinc-300 hover:text-white text-sm font-extrabold uppercase tracking-widest'
+            onClick={() => setAmountToShow(prev => prev + 5)}
           >
             Ver mas
           </button>
@@ -68,7 +70,7 @@ const MobileGallery = () => {
         )}
       </AnimatePresence>
     </>
-  );
-};
+  )
+}
 
-export default MobileGallery;
+export default MobileGallery

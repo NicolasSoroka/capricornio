@@ -1,51 +1,55 @@
-import { Link, ScrollRestoration } from "react-router-dom";
-import BurgerMenu from "./BurgerMenu";
-import ContactButton from "./ContactButton";
-import Footer from "./Footer";
-import WhatsappButton from "./WhatsappButton";
+import { Link, ScrollRestoration, useLocation } from 'react-router-dom'
+import BurgerMenu from './BurgerMenu'
+import ContactButton from './ContactButton'
+import Footer from './Footer'
+import WhatsappButton from './WhatsappButton'
 
 const Layout = ({ children }) => {
+  const location = useLocation()
+  let index = ''
+
+  if (location.pathname === '/productos') {
+    index = 'z-auto'
+  } else {
+    index = 'z-40'
+  }
+
   return (
-    <div className="flex flex-col w-full h-lvh">
-      <header className="fixed md:hidden flex flex-col w-full h-[230px] bg-white items-center py-8 gap-y-6 z-50">
+    <div className='flex flex-col w-full h-lvh'>
+      <header
+        className={`fixed md:hidden flex flex-col gap-y-2 pt-4 w-full bg-white items-center ${index}`}
+      >
         <Link
-          className="text-sm font-extrabold uppercase tracking-widest"
-          to="/"
+          className='text-sm font-extrabold uppercase tracking-widest'
+          to='/'
         >
-          <img src="../../public/logo.webp" alt="logo_capricornio" />
+          <img src='../../public/logo.webp' alt='logo_capricornio' />
         </Link>
-        <div className="flex w-full items-center">
-          <span className="flex w-1/3"></span>
-          <span className="flex flex-col items-center w-1/3 gap-y-2">
-            <ContactButton />
-          </span>
-        </div>
+        <ContactButton />
         <BurgerMenu />
       </header>
 
-      <header className="hidden md:flex md:fixed h-[100px] z-50 w-full bg-white items-center justify-evenly">
-        <div className="flex w-full justify-center">
+      <header className='hidden md:flex md:fixed h-[100px] z-50 w-full bg-white items-center justify-evenly'>
+        <div className='flex w-full justify-center'>
           <ContactButton />
         </div>
         <Link
-          className="flex justify-center w-full text-sm font-extrabold uppercase tracking-widest"
-          to="/"
+          className='flex justify-center w-full text-sm font-extrabold uppercase tracking-widest'
+          to='/'
         >
-          <img src="../../public/logo.webp" alt="logo_capricornio" />
+          <img src='../../public/logo.webp' alt='logo_capricornio' />
         </Link>
-        <div className="flex w-full justify-center">
+        <div className='flex w-full justify-center'>
           <BurgerMenu />
         </div>
       </header>
 
-      <main className="relative mt-[230px] md:mt-[100px] w-full">
-        {children}
-      </main>
+      <main className='relative md:mt-[100px] w-full'>{children}</main>
       <Footer />
       <WhatsappButton />
       <ScrollRestoration />
     </div>
-  );
-};
+  )
+}
 
-export default Layout;
+export default Layout
