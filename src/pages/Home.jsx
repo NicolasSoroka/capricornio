@@ -286,7 +286,7 @@ const HomePage = () => {
         <img
           src='./home/logocapri.webp'
           alt='logocapri_watermark'
-          className='absolute left-[140px] top-[70px] z-auto'
+          className='absolute left-[140px] top-[55px] z-auto'
         />
       </div>
       <TextBlock />

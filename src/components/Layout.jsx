@@ -1,24 +1,13 @@
-import { Link, ScrollRestoration, useLocation } from 'react-router-dom'
+import { Link, ScrollRestoration } from 'react-router-dom'
 import BurgerMenu from './BurgerMenu'
 import ContactButton from './ContactButton'
 import Footer from './Footer'
 import WhatsappButton from './WhatsappButton'
 
 const Layout = ({ children }) => {
-  const location = useLocation()
-  let index = ''
-
-  if (location.pathname === '/productos') {
-    index = 'z-auto'
-  } else {
-    index = 'z-40'
-  }
-
   return (
     <div className='flex flex-col w-full h-lvh'>
-      <header
-        className={`fixed md:hidden flex flex-col gap-y-2 py-6 w-full bg-white items-center z-50`}
-      >
+      <header className='fixed md:hidden flex flex-col gap-y-2 py-6 w-full bg-white items-center z-50'>
         <Link
           className='text-sm font-extrabold uppercase tracking-widest'
           to='/'
@@ -44,7 +33,9 @@ const Layout = ({ children }) => {
         </div>
       </header>
 
-      <main className='relative top-[200px] md:mt-[100px] z-auto w-full'>{children}</main>
+      <main className='relative mt-[200px] md:mt-[100px] z-auto w-full'>
+        {children}
+      </main>
       <Footer />
       <WhatsappButton />
       <ScrollRestoration />
