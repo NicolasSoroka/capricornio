@@ -1,6 +1,6 @@
 const AboutPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="relative flex flex-col items-center justify-center overflow-x-hidden">
       <video
         className="w-full"
         src="../../about/video.mov"
@@ -12,14 +12,14 @@ const AboutPage = () => {
       <img
         src="./home/logocapri.webp"
         alt="watermark"
-        className="absolute top-0 right-[-800px]"
+        className="absolute top-0 right-[-200px]"
       />
 
-      <h2 className="hidden md:flex text-5xl font-semibold tracking-widest text-left w-[600px] text-[#AAA55B] mt-8">
+      <h2 className="md:flex text-3xl md:text-5xl font-semibold tracking-widest text-left w-full md:w-[600px] text-[#AAA55B] mt-8 pl-8">
         _somos
       </h2>
-      <h2 className="hidden md:flex text-5xl font-semibold tracking-widest text-left w-[600px] text-[#AAA55B]">
-        autenticos
+      <h2 className="md:flex text-3xl md:text-5xl font-semibold tracking-widest text-left w-full md:w-[600px] text-[#AAA55B] pl-8">
+        auténticos
       </h2>
       <p className="font-sans text-xl px-8 mt-4 md:max-w-[550px] md:text-2xl md:font-semibold md:text-slate-400 md:tracking-widest">
         Somos una distribuidora líder en Argentina, especializada en tela denim
