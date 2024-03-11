@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import menu from './menu.svg'
 import { Link } from 'react-router-dom'
 
 const BurgerMenu = ({ isMenuOpen }) => {
@@ -65,7 +64,7 @@ const BurgerMenu = ({ isMenuOpen }) => {
       </div>
 
       <button onClick={handleMenuOpen} className='w-12 h-12'>
-        <img src={menu} alt='menu_icon' />
+        <img src='./menu.svg' alt='menu_icon' />
       </button>
     </>
   )
