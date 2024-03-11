@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "slider-1" : "url('/home/bg1.png')"
+      },
       fontFamily: {
         'sans': ['Neue','Roboto', 'Helvetica', 'Arial', 'sans-serif'],
         'didot': ['Didot','Roboto', 'Helvetica', 'Arial', 'sans-serif']

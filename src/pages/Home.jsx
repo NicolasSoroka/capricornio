@@ -160,7 +160,7 @@ const HomePage = () => {
         {...settings}
         className='z-auto min-h-[350px] h-[350px] md:max-h-[800px] md:h-[650px]'
       >
-        <div className="!flex !items-center !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('/assets/home/bg1.png')] bg-cover bg-no-repeat bg-right-top md:h-[650px]">
+        <div className="!flex !items-center !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-slider-1 bg-cover bg-no-repeat bg-right-top md:h-[650px]">
           <div className='flex md:flex-row-reverse md:gap-x-20 h-full'>
             <motion.img
               initial={{ opacity: 0, y: 100 }}
