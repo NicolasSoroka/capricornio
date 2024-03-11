@@ -1,4 +1,3 @@
-import wspLogo from "./wsp_logo.svg";
 import { motion } from "framer-motion";
 
 const WhatsappButton = () => {
@@ -20,7 +19,7 @@ const WhatsappButton = () => {
       whileTap={{ scale: 0.9 }}
       onClick={() => handleWsp()}
     >
-      <img className="w-[35px] h-[35px]" src={wspLogo} alt="whatsapp_logo" />
+      <img className="w-[35px] h-[35px]" src='./wsp_logo.svg' alt="whatsapp_logo" />
     </motion.div>
   );
 };
