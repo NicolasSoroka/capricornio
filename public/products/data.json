@@ -1,0 +1,236 @@
+[
+  {
+    "name": "ALGARVE_LIGHT",
+    "articulo": "../public/products/articulos/ALGARVE_LIGHT.png",
+    "muestra": "../public/products/muestras/ALGARVE_LIGHT.png",
+    "titulo": "Algarve Light",
+    "oz": "100% CO",
+    "desc": "10 oz / 3x1 / 1.75m útil",
+    "color": "Intense Blue"
+  },
+  {
+    "name": "ALGARVE_LIGHT_ANGEL_BLUE",
+    "articulo": "../public/products/articulos/ALGARVE_LIGHT_ANGEL_BLUE.png",
+    "muestra": "../public/products/muestras/ALGARVE_LIGHT_ANGEL_BLUE.png",
+    "titulo": "Algarve Light Angel Blue",
+    "oz": "100% CO",
+    "desc": "10 oz / 3x1 / 1.75m útil",
+    "color": "Angel Blue"
+  },
+  {
+    "name": "ALGARVE_LIGHT_BABY",
+    "articulo": "../public/products/articulos/ALGARVE_LIGHT_BABY.png",
+    "muestra": "../public/products/muestras/ALGARVE_LIGHT_BABY_BLUE.png",
+    "titulo": "Algarve Light Baby",
+    "oz": "100% CO",
+    "desc": "10 oz / 3x1 / 1.75m útil",
+    "color": "Baby Blue"
+  },
+  {
+    "name": "ALGARVE_LIGHT_BLACK",
+    "articulo": "../public/products/articulos/ALGARVE_LIGHT_BLACK.png",
+    "muestra": "../public/products/muestras/ALGARVE_LIGHT_BLACK.png",
+    "titulo": "Algarve Light Black",
+    "oz": "100% CO",
+    "desc": "10 oz / 3x1 / 1.75m útil",
+    "color": "Black"
+  },
+  {
+    "name": "BORBA",
+    "articulo": "../public/products/articulos/BORBA.png",
+    "muestra": "../public/products/muestras/BORBA.png",
+    "titulo": "Borba",
+    "oz": "100% CO",
+    "desc": "9 oz/ 3x1/ 1.74m útil",
+    "color": "Intense Blue"
+  },
+  {
+    "name": "BORBA_ANGEL_BLUE",
+    "articulo": "../public/products/articulos/BORBA_ANGEL_BLUE.png",
+    "muestra": "../public/products/muestras/BORBA_ANGEL_BLUE.png",
+    "titulo": "Borba Angel Blue",
+    "oz": "100% CO",
+    "desc": "9 oz/ 3x1/ 1.74m útil",
+    "color": "Angel Blue"
+  },
+  {
+    "name": "BORBA_BABY_BLUE",
+    "articulo": "../public/products/articulos/BORBA_BABY_BLUE.png",
+    "muestra": "../public/products/muestras/BORBA_BABY_BLUE.png",
+    "titulo": "Borba Baby Blue",
+    "oz": "100% CO",
+    "desc": "9 oz / 3x1/ 1.74m útil",
+    "color": "Baby Blue"
+  },
+  {
+    "name": "CARNABY",
+    "articulo": "../public/products/articulos/CARNABY.png",
+    "muestra": "../public/products/muestras/CARNABY.png",
+    "titulo": "Carnaby",
+    "oz": "70% CO 28% PES 2% PUE",
+    "desc": "7.5 oz / Cetim / 1.37m útil",
+    "color": "Intense Black"
+  },
+  {
+    "name": "FEBE",
+    "articulo": "../public/products/articulos/FEBE.png",
+    "muestra": "../public/products/muestras/FEBE.png",
+    "titulo": "Febe",
+    "oz": "75.5% CO 22.5% PES 2% PUE",
+    "desc": "8.5 oz / Cetim / 1.63m útil",
+    "color": "Intense Blue"
+  },
+  {
+    "name": "FEBE_BABY_BLUE",
+    "articulo": "../public/products/articulos/FEBE_BABY_BLUE.png",
+    "muestra": "../public/products/muestras/FEBE_BABY_BLUE.png",
+    "titulo": "Febe Baby Blue",
+    "oz": "75.5%CO  22.5%PES   2% PUE",
+    "desc": "8.5 oz / Cetim / 1.63m útil",
+    "color": "Baby blue"
+  },
+  {
+    "name": "FEBE_BLACK_BP",
+    "articulo": "../public/products/articulos/FEBE_BLACK.png",
+    "muestra": "../public/products/muestras/FEBE_BLACK_BP.png",
+    "titulo": "Febe Black",
+    "oz": "75.5%CO  22.5%PES   2% PUE",
+    "desc": "8.5 oz / Cetim / 1.63m útil",
+    "color": "Black"
+  },
+  {
+    "name": "FEBE_BLUE_BLACK",
+    "articulo": "../public/products/articulos/FEBE_BLUE_BLACK.png",
+    "muestra": "../public/products/muestras/FEBE_BLUE_BLACK.png",
+    "titulo": "Febe Blue Black",
+    "oz": "75.5% CO  22.5%PES   2% PUE",
+    "desc": "8.5 oz / Cetim / 1.63m útil",
+    "color": "Blue Black"
+  },
+  {
+    "name": "FEBE_BP",
+    "articulo": "../public/products/articulos/FEBE_BP.png",
+    "muestra": "../public/products/muestras/FEBE_BP.png",
+    "titulo": "Febe BP",
+    "oz": "75.5% CO 22.5%PES 2% PUE",
+    "desc": "8.5 oz / Cetim / 1.63m útil",
+    "color": "Intense Blue"
+  },
+  {
+    "name": "GUGA",
+    "articulo": "../public/products/articulos/GUGA.png",
+    "muestra": "../public/products/muestras/GUGA.png",
+    "titulo": "Guga",
+    "oz": "98% CO 2% PUE",
+    "desc": "9 oz/ 3x1 / 1.75 m útil",
+    "color": "Intense blue"
+  },
+  {
+    "name": "GUGA_BABY_BLUE",
+    "articulo": "../public/products/articulos/GUGA_BABY_BLUE.png",
+    "muestra": "../public/products/muestras/GUGA_BABY_BLUE.png",
+    "titulo": "Guga Baby Blue",
+    "oz": "98% CO 2% PUE",
+    "desc": "9 oz/ 3x1 / 1.75 m útil",
+    "color": "Baby blue"
+  },
+  {
+    "name": "IBIRA_FLEX",
+    "articulo": "../public/products/articulos/IBIRA_FLEX.png",
+    "muestra": "../public/products/muestras/IBIRA_FLEX.png",
+    "titulo": "Ibira Flex",
+    "oz": "98% CO 2% PUE",
+    "desc": "10.5 oz / 3x1 / 1.73m útil",
+    "color": "Intense Blue"
+  },
+  {
+    "name": "IBIRA_FLEX_BABY_BLUE",
+    "articulo": "../public/products/articulos/IBIRA_FLEX_BABY_BLUE.png",
+    "muestra": "../public/products/muestras/IBIRA_FLEX_BABY_BLUE.png",
+    "titulo": "Ibira Flex Baby Blue",
+    "oz": "98% CO 2% PUE",
+    "desc": "10.5 oz / 3x1 / 1.73m útil",
+    "color": "Baby Blue"
+  },
+  {
+    "name": "IBIRA_FLEX_BLACK",
+    "articulo": "../public/products/articulos/IBIRA_FLEX_BLACK.png",
+    "muestra": "../public/products/muestras/IBIRA_FLEX_BLACK.png",
+    "titulo": "Ibira Flex Black",
+    "oz": "98% CO 2% PUE",
+    "desc": "10.5 oz / 3x1 / 1.73m útil",
+    "color": "Black"
+  },
+  {
+    "name": "IBIRA_FLEX_BLACK_BLACK",
+    "articulo": "../public/products/articulos/IBIRA_FLEX_BLACK_BLACK.png",
+    "muestra": "../public/products/muestras/IBIRA_FLEX_BLACK_BLACK.png",
+    "titulo": "Ibira Flex Black Black",
+    "oz": "98% CO 2% PUE",
+    "desc": "10.5 oz / 3x1 / 1.73m útil",
+    "color": "Black"
+  },
+  {
+    "name": "MALI",
+    "articulo": "../public/products/articulos/MALI.png",
+    "muestra": "../public/products/muestras/MALI.png",
+    "titulo": "Mali",
+    "oz": "98% CO 2% PUE",
+    "desc": "9.5 oz / Cetim / 1.53m útil",
+    "color": "Intense Blue"
+  },
+  {
+    "name": "TRONCOSO",
+    "articulo": "../public/products/articulos/TRONCOSO.png",
+    "muestra": "../public/products/muestras/TRONCOSO.png",
+    "titulo": "Troncoso",
+    "oz": "78.5% CO 20% PES 1.5% PUE",
+    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil ",
+    "color": "Intense Blue "
+  },
+  {
+    "name": "TRONCOSO_ANGEL_BLUE",
+    "articulo": "../public/products/articulos/TRONCOSO_ANGEL_BLUE.png",
+    "muestra": "../public/products/muestras/TRONCOSO_ANGEL_BLUE.png",
+    "titulo": "Troncoso Angel Blue",
+    "oz": "78.5% CO 20% PES 1.5% PUE",
+    "desc": "8.5 oz / 3x1 / 1.42m útil",
+    "color": "Angel Blue "
+  },
+  {
+    "name": "TRONCOSO_MAX_BABY_BLUE",
+    "articulo": "../public/products/articulos/TRONCOSO_MAX_BABY.png",
+    "muestra": "../public/products/muestras/TRONCOSO_MAX_BABY_BLUE.png",
+    "titulo": "Troncoso Max Baby",
+    "oz": "78.5% CO 20% PES 1.5% PUE",
+    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil",
+    "color": "Baby Blue"
+  },
+  {
+    "name": "TRONCOSO_MAX_BLACK_BP",
+    "articulo": "../public/products/articulos/TRONCOSO_MAX_BLACK_BP.png",
+    "muestra": "../public/products/muestras/TRONCOSO_MAX_BLACK_BP.png",
+    "titulo": "Troncoso Max Black BP",
+    "oz": "78.5% CO 20% PES 1.5% PUE",
+    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil",
+    "color": "Black"
+  },
+  {
+    "name": "TRONCOSO_MAX_BLUE_BLACK",
+    "articulo": "../public/products/articulos/TRONCOSO_MAX_BLUE_BLACK.png",
+    "muestra": "../public/products/muestras/TRONCOSO_MAX_BLUE_BLACK.png",
+    "titulo": "Troncoso Max Blue Black",
+    "oz": "78.5% CO 20% PES 1.5% PUE",
+    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil",
+    "color": "Blue Black"
+  },
+  {
+    "name": "TRONCOSO_MAX_BP",
+    "articulo": "../public/products/articulos/TRONCOSO_MAX_BP.png",
+    "muestra": "../public/products/muestras/TRONCOSO_MAX_BP.png",
+    "titulo": "Troncoso Max BP",
+    "oz": "78.5% CO 20% PES 1.5% PUE",
+    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil ",
+    "color": "Intense Blue"
+  }
+]
