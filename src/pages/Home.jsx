@@ -160,7 +160,7 @@ const HomePage = () => {
         {...settings}
         className='z-auto min-h-[350px] h-[350px] md:max-h-[800px] md:h-[650px]'
       >
-        <div className="!flex !items-center !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('./home/bg1.png')] bg-cover bg-no-repeat bg-right-top md:h-[650px]">
+        <div className="!flex !items-center !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('home/bg1.png')] bg-cover bg-no-repeat bg-right-top md:h-[650px]">
           <div className='flex md:flex-row-reverse md:gap-x-20 h-full'>
             <motion.img
               initial={{ opacity: 0, y: 100 }}
@@ -194,7 +194,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('./home/bg2.png')] bg-cover bg-no-repeat bg-right-top pt-4 md:pt-0 md:h-[650px]">
+        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('home/bg2.png')] bg-cover bg-no-repeat bg-right-top pt-4 md:pt-0 md:h-[650px]">
           <div className='flex md:gap-x-20'>
             <motion.img
               initial={{ opacity: 0, y: 100 }}
@@ -263,7 +263,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('./home/bg3.webp')] bg-cover bg-no-repeat bg-right-top pt-6 md:h-[650px] md:pt-0">
+        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('home/bg3.webp')] bg-cover bg-no-repeat bg-right-top pt-6 md:h-[650px] md:pt-0">
           <div className='flex relative md:gap-x-8 md:justify-center md:items-center'>
             <motion.img
               initial={{ opacity: 0, y: 100 }}
