@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import ProductModal from './ProductModal'
 import { useState } from 'react'
 import useEscapeKey from '../hooks/useEscapeKey'
-import products from '../../public/products/data.json'
+import products from './products/data.json'
 import Muestra from './Muestra'
 
 const MobileGallery = () => {
@@ -12,8 +12,8 @@ const MobileGallery = () => {
 
   const [selectedProduct, setSelectedProduct] = useState({
     name: 'ALGARVE_LIGHT',
-    articulo: '../public/products/articulos/ALGARVE_LIGHT.png',
-    muestra: '../public/products/muestras/ALGARVE_LIGHT.png',
+    articulo: './products/articulos/ALGARVE_LIGHT.png',
+    muestra: './products/muestras/ALGARVE_LIGHT.png',
     titulo: 'Algarve asdLight',
     oz: '10',
     desc: 'Description of Element 1',

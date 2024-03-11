@@ -48,8 +48,8 @@
 
 @font-face {
   font-family: "Neue";
-  src: url("../public/fonts/HelveticaNeue-ThinCond.woff2") format("woff2"),
-    url("../public/fonts/HelveticaNeue-ThinCond.woff") format("woff");
+  src: url("./fonts/HelveticaNeue-ThinCond.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-ThinCond.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -57,8 +57,8 @@
 
 @font-face {
   font-family: "Didot";
-  src: url("../public/fonts/Didot-HTF-B64-Bold.woff2") format("woff2"),
-    url("../public/fonts/Didot-HTF-B64-Bold.woff") format("woff");
+  src: url("./fonts/Didot-HTF-B64-Bold.woff2") format("woff2"),
+    url("./fonts/Didot-HTF-B64-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -66,8 +66,8 @@
 
 @font-face {
   font-family: "Neue";
-  src: url("../public/fonts/HelveticaNeue-CondensedBold.woff2") format("woff2"),
-    url("../public/fonts/HelveticaNeue-CondensedBold.woff") format("woff");
+  src: url("./fonts/HelveticaNeue-CondensedBold.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-CondensedBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;

@@ -2,5 +2,5 @@
 agregar link a whatsapp
 formulario de contacto
 link a redes sociales
-
-optimizar todas las imagenes
+texto footer
+check assets que fallaron.

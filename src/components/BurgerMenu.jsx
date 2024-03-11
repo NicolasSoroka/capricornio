@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import menu from '../../public/menu.svg'
+import menu from './menu.svg'
 import { Link } from 'react-router-dom'
 
 const BurgerMenu = ({ isMenuOpen }) => {

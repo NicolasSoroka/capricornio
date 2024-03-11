@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
           className='text-sm font-extrabold uppercase tracking-widest'
           to='/'
         >
-          <img src='../../public/logo.webp' alt='logo_capricornio' />
+          <img src='./logo.webp' alt='logo_capricornio' />
         </Link>
         <ContactButton />
         <BurgerMenu />
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
           className='flex justify-center w-full text-sm font-extrabold uppercase tracking-widest'
           to='/'
         >
-          <img src='../../public/logo.webp' alt='logo_capricornio' />
+          <img src='./logo.webp' alt='logo_capricornio' />
         </Link>
         <div className='flex w-full justify-end items-center gap-x-4 pr-12 '>
           <ContactButton />

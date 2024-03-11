@@ -1,6 +1,6 @@
-import igLogo from '../../public/ig.svg'
-import fbLogo from '../../public/fb.svg'
-import ytLogo from '../../public/yt.svg'
+import igLogo from './ig.svg'
+import fbLogo from './fb.svg'
+import ytLogo from './yt.svg'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {

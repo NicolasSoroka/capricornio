@@ -1,4 +1,4 @@
-import wspLogo from "../../public/wsp_logo.svg";
+import wspLogo from "./wsp_logo.svg";
 import { motion } from "framer-motion";
 
 const WhatsappButton = () => {
