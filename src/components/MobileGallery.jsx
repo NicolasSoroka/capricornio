@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import ProductModal from './ProductModal'
 import { useState } from 'react'
 import useEscapeKey from '../hooks/useEscapeKey'
-import products from './products/data.json'
+import products from '../products/data.json'
 import Muestra from './Muestra'
 
 const MobileGallery = () => {
