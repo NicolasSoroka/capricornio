@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "slider-1" : "url('/home/bg1.png')"
+        "slider-1" : "url('/home/bg1.png')",
+        "slider-2" : "url('/home/bg2.png')",
+        "slider-3" : "url('/home/bg3.png')",
+        "slider-4" : "url('/home/bann31.webp')",
+        "slider-5" : "url('/home/bann32.webp')",
       },
       fontFamily: {
         'sans': ['Neue','Roboto', 'Helvetica', 'Arial', 'sans-serif'],

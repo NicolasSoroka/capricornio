@@ -194,7 +194,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('/assets/home/bg2.png')] bg-cover bg-no-repeat bg-right-top pt-4 md:pt-0 md:h-[650px]">
+        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-slider-2 bg-cover bg-no-repeat bg-right-top pt-4 md:pt-0 md:h-[650px]">
           <div className='flex md:gap-x-20'>
             <motion.img
               initial={{ opacity: 0, y: 100 }}
@@ -263,7 +263,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-[url('/assets/home/bg3.webp')] bg-cover bg-no-repeat bg-right-top pt-6 md:h-[650px] md:pt-0">
+        <div className="!flex !justify-center min-h-[350px] h-[350px] w-full overflow-hidden bg-slider-3 bg-cover bg-no-repeat bg-right-top pt-6 md:h-[650px] md:pt-0">
           <div className='flex relative md:gap-x-8 md:justify-center md:items-center'>
             <motion.img
               initial={{ opacity: 0, y: 100 }}
@@ -345,7 +345,7 @@ const HomePage = () => {
         {...settings}
         className='z-auto min-h-[300px] h-[300px] md:h-[650px] md:max-h-[450px] overflow-y-hidden md:w-full'
       >
-        <div className="flex relative min-h-[300px] h-[300px] md:h-[650px] md:max-h-[450px] w-full overflow-hidden bg-[url('./home/bann31.webp')] bg-cover bg-no-repeat	bg-[-50px] md:bg-[0px]">
+        <div className="flex relative min-h-[300px] h-[300px] md:h-[650px] md:max-h-[450px] w-full overflow-hidden bg-slider-4 bg-cover bg-no-repeat	bg-[-50px] md:bg-[0px]">
           <motion.h2
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -365,7 +365,7 @@ const HomePage = () => {
             <Link to='/nosotros'>Conozca Capricórnio.</Link>
           </motion.div>
         </div>
-        <div className="flex relative min-h-[300px] h-[300px] md:h-[650px] md:max-h-[450px] w-full overflow-hidden bg-[url('./home/bann32.webp')] bg-cover bg-no-repeat	bg-left-top">
+        <div className="flex relative min-h-[300px] h-[300px] md:h-[650px] md:max-h-[450px] w-full overflow-hidden bg-slider-5 bg-cover bg-no-repeat	bg-left-top">
           <motion.h2
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
