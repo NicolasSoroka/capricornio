@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         <BurgerMenu />
       </header>
 
-      <header className='hidden md:flex h-[100px] md:max-w-[1440px] z-50 w-full py-6 bg-white items-center justify-evenly m-auto'>
+      <header className='hidden md:flex h-[100px] z-50 w-full py-6 max-w-[1440px] bg-white items-center justify-evenly m-auto'>
         <div className='flex w-full justify-center'>
         </div>
         <Link
@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
         </div>
       </header>
 
-      <main className='relative mt-[200px] md:m-auto md:max-w-[1440px] md:mt-[100px] z-auto w-full'>
+      <main className='relative mt-[200px] md:m-auto z-auto w-full overflow-x-hidden'>
         {children}
       </main>
       <Footer />

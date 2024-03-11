@@ -1,6 +1,6 @@
 const TextBlock = () => {
   return (
-    <div className="overflow-hidden flex flex-col md:flex-row justify-center items-center md:items-start p-10 gap-y-8 md:my-20 md:p-0">
+    <div className="overflow-hidden flex flex-col md:flex-row justify-center items-center md:items-start p-10 gap-y-8 md:my-20 md:p-0 md:gap-x-8">
       <div className="-z-50 text-3xl md:text-[39px] font-semibold md:font-bold tracking-widest text-slate-500">
         <h2 className="relative -left-4">_Denim</h2>
         <h2 className="relative left-16">real</h2>
