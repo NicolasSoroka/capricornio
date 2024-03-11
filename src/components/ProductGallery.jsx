@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import products from './products/data.json'
+import products from '../assets/products/data.json'
 import Muestra from './Muestra'
 import Articulo from './Articulo'
 
 const ProductGallery = () => {
   const [selectedProduct, setSelectedProduct] = useState({
     name: 'ALGARVE_LIGHT',
-    articulo: './products/articulos/ALGARVE_LIGHT.png',
-    muestra: './products/muestras/ALGARVE_LIGHT.png',
+    articulo: '../assets/products/articulos/ALGARVE_LIGHT.png',
+    muestra: '../assets/products/muestras/ALGARVE_LIGHT.png',
     titulo: 'Algarve Light',
     oz: '100% CO',
     desc: '10 oz / 3x1 / 1.75m útil',
