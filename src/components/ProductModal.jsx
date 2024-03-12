@@ -6,7 +6,7 @@ const ProductModal = ({ article, handleClose }) => {
   return (
     <div
       onClick={() => handleClose()}
-      className="flex w-full items-center fixed top-[206px] justify-center flex-col py-4 gap-y-4 h-[calc(100vh-180px)] z-auto bg-[#D9D9D9]"
+      className="flex w-full items-center fixed top-[206px] justify-center flex-col py-4 gap-y-4 h-[calc(100vh-206px)] z-auto bg-[#D9D9D9]"
     >
       <h2 className="text-3xl border-b border-black tracking-widest">{article?.titulo}</h2>
       <motion.img
