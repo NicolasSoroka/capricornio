@@ -9,14 +9,7 @@ import ContactPage from "./pages/Contact.jsx";
 import ProductsPage from "./pages/Products.jsx";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <Layout>
-        <HomePage />
-      </Layout>
-    ),
-  },
+  
   {
     path: "/nosotros",
     element: (
@@ -38,6 +31,14 @@ const router = createBrowserRouter([
     element: (
       <Layout>
         <ContactPage />
+      </Layout>
+    ),
+  },
+  {
+    path: "*",
+    element: (
+      <Layout>
+        <HomePage />
       </Layout>
     ),
   },
