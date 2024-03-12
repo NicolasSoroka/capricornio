@@ -7,7 +7,7 @@ import WhatsappButton from './WhatsappButton'
 const Layout = ({ children }) => {
   return (
     <div className='relative flex flex-col w-full'>
-      <header className='fixed md:hidden flex flex-col gap-y-2 py-6 w-full bg-white items-center z-50'>
+      <header className='fixed md:hidden flex h-[200px] flex-col gap-y-2 py-6 w-full bg-white items-center z-50'>
         <Link
           className='text-sm font-extrabold uppercase tracking-widest'
           to='/'

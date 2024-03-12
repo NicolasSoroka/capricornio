@@ -12,8 +12,8 @@ const MobileGallery = () => {
 
   const [selectedProduct, setSelectedProduct] = useState({
     name: 'ALGARVE_LIGHT',
-    articulo: './assets/products/articulos/ALGARVE_LIGHT.png',
-    muestra: './assets/products/muestras/ALGARVE_LIGHT.png',
+    articulo: '../assets/products/articulos/ALGARVE_LIGHT.png',
+    muestra: '../assets/products/muestras/ALGARVE_LIGHT.png',
     titulo: 'Algarve asdLight',
     oz: '10',
     desc: 'Description of Element 1',
