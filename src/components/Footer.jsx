@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
 
       <div className='flex flex-col items-center justify-center w-full text-center text-xs'>
-        <p className='flex max-w-[230px] md:max-w-full'>AV. ANGÉLICA, 2250 . 9º ANDAR . SÃO PAULO, BRASIL © 2023 TODOS LOS DERECHOS RESERVADOS</p>
+        {/* <p className='flex max-w-[230px] md:max-w-full'>AV. ANGÉLICA, 2250 . 9º ANDAR . SÃO PAULO, BRASIL © 2023 TODOS LOS DERECHOS RESERVADOS</p> */}
       </div>
     </footer>
   )
