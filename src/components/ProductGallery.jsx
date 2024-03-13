@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import products from '../assets/products/data.json'
-import Muestra from './Muestra'
-import Articulo from './Articulo'
+import products from 'assets/products/data.json'
+import Muestra from 'src/components/Muestra'
+import Articulo from 'src/components/Articulo'
 
 const ProductGallery = () => {
   const [selectedProduct, setSelectedProduct] = useState({
     name: 'ALGARVE_LIGHT',
-    articulo: '/products/articulos/ALGARVE_LIGHT.png',
-    muestra: '/products/muestras/ALGARVE_LIGHT.png',
+    articulo: 'src/assets/products/articulos/ALGARVE_LIGHT.png',
+    muestra: 'src/assets/products/muestras/ALGARVE_LIGHT.png',
     titulo: 'Algarve Light',
     oz: '100% CO',
     desc: '10 oz / 3x1 / 1.75m útil',
@@ -16,15 +16,8 @@ const ProductGallery = () => {
 
   const [isActive, setIsActive] = useState(0)
 
-  useEffect(() => {
-    products.forEach(picture => {
-      const img = new Image()
-      img.src = picture.articulo
-    })
-  }, [])
-
   return (
-    <div className='relative w-full h-[calc(100vh-100px)] hidden md:flex'>
+    <div className='relative w-full justify-between h-[calc(100vh-100px)] max-h-[calc(100vh-100px)] hidden md:flex bg-[#D9D9D9] overflow-y-hidden'>
       <ul className='flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 '>
         {products.map((element, index) => {
           if (index > products.length / 2) return
