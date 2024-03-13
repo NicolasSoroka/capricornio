@@ -296,7 +296,7 @@ const HomePage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className='absolute top-[70px] md:text-4xl'
+                className='absolute top-[60px] w-[150px] md:top-[70px] md:text-4xl'
               >
                 de la moda
               </motion.h2>
@@ -305,7 +305,7 @@ const HomePage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className='absolute top-[110px] md:text-4xl'
+                className='absolute md:top-[110px] top-[90px] md:text-4xl'
               >
                 SS24
               </motion.h2>
