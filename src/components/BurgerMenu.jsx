@@ -31,7 +31,7 @@ const BurgerMenu = ({ isMenuOpen }) => {
     <>
       <div
         className={`absolute flex justify-center left-0 items-center z-50 w-full h-dvh bg-slate-500 opacity-90 transition-all duration-700
-          ${isBurgerMenuOpen ? 'top-0 opacity-90' : '-top-[1000px] opacity-0'}`}
+          ${isBurgerMenuOpen ? 'top-0 opacity-90' : '-top-[1000px] opacity-0 z-0'}`}
       >
         <span
           onClick={handleMenuOpen}
@@ -63,7 +63,7 @@ const BurgerMenu = ({ isMenuOpen }) => {
         </ul>
       </div>
 
-      <button onClick={handleMenuOpen} className='w-12 h-12'>
+      <button onClick={handleMenuOpen} className='w-12 h-12 z-50'>
         <img src='./menu.svg' alt='menu_icon' />
       </button>
     </>
