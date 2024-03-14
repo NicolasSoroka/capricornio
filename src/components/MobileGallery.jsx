@@ -6,7 +6,7 @@ import useEscapeKey from '../hooks/useEscapeKey'
 import products from '../assets/products/data.json'
 import Muestra from './Muestra'
 
-const MobileGallery = () => {
+const MobileGallery = ({filter}) => {
   const [isModalShown, setIsModalShown] = useState(false)
   const [amountToShow, setAmountToShow] = useState(5)
 
@@ -17,9 +17,11 @@ const MobileGallery = () => {
     titulo: 'Algarve asdLight',
     oz: '10',
     desc: 'Description of Element 1',
-    color: 'Blue'
+    color: 'Blue',
+    category: '1'
   })
 
+  const filteredProducts = products.filter( item => item.category === Number(filter))
   useEscapeKey(() => setIsModalShown(false))
 
   const handleModal = element => {
@@ -30,7 +32,7 @@ const MobileGallery = () => {
   return (
     <>
       <ul className='flex md:hidden flex-col gap-y-4 overflow-y-scroll no-scrollbar bg-[#D9D9D9] items-center w-full py-6 z-auto'>
-        {products.map((element, index) => {
+        {filteredProducts.map((element, index) => {
           if (index >= amountToShow) return
           else {
             return (
@@ -49,7 +51,7 @@ const MobileGallery = () => {
           }
         })}
 
-        {products.length - amountToShow > 0 && (
+        {filteredProducts.length - amountToShow > 0 && (
           <button
             className='border border-black bg-white w-[115px] h-[35px] hover:bg-[#9B9B9B] transition-all duration-500	hover:border-zinc-300 hover:text-white text-sm font-extrabold uppercase tracking-widest'
             onClick={() => setAmountToShow(prev => prev + 5)}

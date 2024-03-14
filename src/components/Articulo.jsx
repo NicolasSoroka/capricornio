@@ -8,6 +8,7 @@ const Articulo = ({ product }) => {
       <h2 className='relative text-3xl border-b border-black tracking-widest'>
         {product.titulo}
       </h2>
+
       <motion.img
         className='relative object-contain md:h-2/3 max-h-[900px] h-[400px]'
         src={product.articulo}

@@ -22,10 +22,10 @@ const Layout = ({ children }) => {
         <div className='flex w-full justify-center'>
         </div>
         <Link
-          className='flex justify-center w-full text-sm font-extrabold uppercase tracking-widest'
+          className='flex m-auto justify-center w-full text-sm font-extrabold uppercase tracking-widest'
           to='/'
         >
-          <img src='./logo.webp' alt='logo_capricornio' />
+          <img src='./logo.webp' alt='logo_capricornio' className='pl-10'/>
         </Link>
         <div className='flex w-full justify-end items-center gap-x-4 pr-12 '>
           <ContactButton />

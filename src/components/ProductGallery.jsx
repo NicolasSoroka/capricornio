@@ -3,7 +3,8 @@ import products from 'assets/products/data.json'
 import Muestra from 'src/components/Muestra'
 import Articulo from 'src/components/Articulo'
 
-const ProductGallery = () => {
+const ProductGallery = ({filter}) => {
+  console.log("🚀 ~ ProductGallery ~ filter:", filter)
   const [selectedProduct, setSelectedProduct] = useState({
     name: 'ALGARVE_LIGHT',
     articulo: 'src/assets/products/articulos/ALGARVE_LIGHT.png',
@@ -14,13 +15,14 @@ const ProductGallery = () => {
     color: 'Intense Blue'
   })
 
+  const filteredProducts = products.filter( item => item.category === Number(filter))
   const [isActive, setIsActive] = useState(0)
 
   return (
     <div className='relative w-full justify-between h-[calc(100vh-100px)] max-h-[calc(100vh-100px)] hidden md:flex bg-[#D9D9D9] overflow-y-hidden'>
       <ul className='flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 '>
-        {products.map((element, index) => {
-          if (index > products.length / 2) return
+        {filteredProducts.map((element, index) => {
+          if (index > filteredProducts.length / 2) return
           else {
             return (
               <Muestra
@@ -41,8 +43,8 @@ const ProductGallery = () => {
       </ul>
       <Articulo product={selectedProduct} />
       <ul className='flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 scrollbar-left-container '>
-        {products.map((element, index) => {
-          if (index <= products.length / 2) return
+        {filteredProducts.map((element, index) => {
+          if (index <= filteredProducts.length / 2) return
           else {
             return (
               <Muestra
@@ -50,7 +52,7 @@ const ProductGallery = () => {
                 alt={element.alt}
                 name={element.titulo}
                 key={element.name}
-                pos={index - products.length / 2 - 1}
+                pos={index - filteredProducts.length / 2 - 1}
                 isActive={isActive === index}
                 onClick={() => {
                   setIsActive(index)
