@@ -19,8 +19,8 @@ const ProductGallery = ({filter}) => {
   const [isActive, setIsActive] = useState(0)
 
   return (
-    <div className='relative w-full justify-between h-[calc(100vh-100px)] max-h-[calc(100vh-100px)] hidden md:flex bg-[#D9D9D9] overflow-y-hidden'>
-      <ul className='flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 '>
+    <div className='relative w-full justify-between h-[calc(100vh-100px)] max-h-[calc(100vh-100px)] hidden md:flex bg-[#E1E1E1] overflow-y-hidden'>
+      <ul className='flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#E1E1E1] w-full max-w-[400px] py-8 '>
         {filteredProducts.map((element, index) => {
           if (index > filteredProducts.length / 2) return
           else {
@@ -42,7 +42,7 @@ const ProductGallery = ({filter}) => {
         })}
       </ul>
       <Articulo product={selectedProduct} />
-      <ul className='flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#D9D9D9] w-full max-w-[400px] py-8 scrollbar-left-container '>
+      <ul className='flex flex-col gap-y-4 overflow-y-scroll custom-scrollbar items-center bg-[#E1E1E1] w-full max-w-[400px] py-8 scrollbar-left-container '>
         {filteredProducts.map((element, index) => {
           if (index <= filteredProducts.length / 2) return
           else {

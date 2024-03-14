@@ -31,7 +31,7 @@ const MobileGallery = ({filter}) => {
 
   return (
     <>
-      <ul className='flex md:hidden flex-col gap-y-4 overflow-y-scroll no-scrollbar bg-[#D9D9D9] items-center w-full py-6 z-auto'>
+      <ul className='flex md:hidden flex-col gap-y-4 overflow-y-scroll no-scrollbar bg-[#E1E1E1] items-center w-full py-6 z-auto'>
         {filteredProducts.map((element, index) => {
           if (index >= amountToShow) return
           else {

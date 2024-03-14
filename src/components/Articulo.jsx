@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 const Articulo = ({ product }) => {
   return (
-    <div className='flex relative w-full md:w-auto h-full items-center justify-center md:justify-between flex-col py-4 md:py-8 gap-y-4 bg-[#D9D9D9]'>
+    <div className='flex relative w-full md:w-auto h-full items-center justify-center md:justify-between flex-col py-4 md:py-8 gap-y-4 bg-[#E1E1E1]'>
       <h2 className='relative text-3xl border-b border-black tracking-widest'>
         {product.titulo}
       </h2>
