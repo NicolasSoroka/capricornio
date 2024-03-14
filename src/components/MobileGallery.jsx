@@ -11,14 +11,13 @@ const MobileGallery = ({filter}) => {
   const [amountToShow, setAmountToShow] = useState(5)
 
   const [selectedProduct, setSelectedProduct] = useState({
-    name: 'ALGARVE_LIGHT',
-    articulo: '../assets/products/articulos/ALGARVE_LIGHT.png',
-    muestra: '../assets/products/muestras/ALGARVE_LIGHT.png',
-    titulo: 'Algarve asdLight',
-    oz: '10',
-    desc: 'Description of Element 1',
-    color: 'Blue',
-    category: '1'
+    name: 'CARNABY',
+    articulo: '/products/articulos/CARNABY.png',
+    muestra: '/products/muestras/CARNABY.png',
+    titulo: "Carnaby",
+    oz: "70% CO 28% PES 2% PUE",
+    desc: "7.5 oz / Cetim / 1.37m útil",
+    color: "Intense Black",
   })
 
   const filteredProducts = products.filter( item => item.category === Number(filter))

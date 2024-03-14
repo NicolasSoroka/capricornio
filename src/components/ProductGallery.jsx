@@ -1,21 +1,22 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import products from 'assets/products/data.json'
 import Muestra from 'src/components/Muestra'
 import Articulo from 'src/components/Articulo'
 
-const ProductGallery = ({filter}) => {
-  console.log("🚀 ~ ProductGallery ~ filter:", filter)
+const ProductGallery = ({ filter }) => {
   const [selectedProduct, setSelectedProduct] = useState({
-    name: 'ALGARVE_LIGHT',
-    articulo: 'src/assets/products/articulos/ALGARVE_LIGHT.png',
-    muestra: 'src/assets/products/muestras/ALGARVE_LIGHT.png',
-    titulo: 'Algarve Light',
-    oz: '100% CO',
-    desc: '10 oz / 3x1 / 1.75m útil',
-    color: 'Intense Blue'
+    name: 'CARNABY',
+    articulo: '/products/articulos/CARNABY.png',
+    muestra: '/products/muestras/CARNABY.png',
+    titulo: "Carnaby",
+    oz: "70% CO 28% PES 2% PUE",
+    desc: "7.5 oz / Cetim / 1.37m útil",
+    color: "Intense Black",
   })
 
-  const filteredProducts = products.filter( item => item.category === Number(filter))
+  const filteredProducts = products.filter(
+    item => item.category === Number(filter)
+  )
   const [isActive, setIsActive] = useState(0)
 
   return (
