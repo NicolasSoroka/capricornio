@@ -205,7 +205,7 @@
     "muestra": "/products/muestras/TRANCOSO.png",
     "titulo": "Trancoso",
     "oz": "78.5% CO 20% PES 1.5% PUE",
-    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil ",
+    "desc": "8.5 oz / 3x1 / 1.42m útil - T. Max: 1.70 m útil ",
     "color": "Intense Blue",
     "category" : 1
   },
@@ -225,7 +225,7 @@
     "muestra": "/products/muestras/TRANCOSO_MAX_BABY_BLUE.png",
     "titulo": "Trancoso Max Baby",
     "oz": "78.5% CO 20% PES 1.5% PUE",
-    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil",
+    "desc": "8.5 oz / 3x1 / 1.42m útil - T. Max: 1.70 m útil",
     "color": "Baby Blue",
     "category" : 1
   },
@@ -235,7 +235,7 @@
     "muestra": "/products/muestras/TRANCOSO_MAX_BLACK_BP.png",
     "titulo": "Trancoso Max Black BP",
     "oz": "78.5% CO 20% PES 1.5% PUE",
-    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil",
+    "desc": "8.5 oz / 3x1 / 1.42m útil - T. Max: 1.70 m útil",
     "color": "Black",
     "category" : 1
   },
@@ -245,7 +245,7 @@
     "muestra": "/products/muestras/TRANCOSO_MAX_BLUE_BLACK.png",
     "titulo": "Trancoso Max Blue Black",
     "oz": "78.5% CO 20% PES 1.5% PUE",
-    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil",
+    "desc": "8.5 oz / 3x1 / 1.42m útil - T. Max: 1.70 m útil",
     "color": "Blue Black",
     "category" : 1
   },
@@ -255,7 +255,7 @@
     "muestra": "/products/muestras/TRANCOSO_MAX_BP.png",
     "titulo": "Trancoso Max BP",
     "oz": "78.5% CO 20% PES 1.5% PUE",
-    "desc": "8.5 oz / 3x1 / 1.42m útil – T. Max: 1.70 m útil ",
+    "desc": "8.5 oz / 3x1 / 1.42m útil - T. Max: 1.70 m útil",
     "color": "Intense Blue",
     "category" : 1
   }

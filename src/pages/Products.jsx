@@ -18,12 +18,11 @@ const ProductsPage = () => {
           className='w-auto p-2 m-auto text-xl rounded-md items-center justify-center outline-none border '
         >
           <option defaultChecked disabled>
-            Seleccione filtro
+            Seleccione tipo
           </option>
-          <option value='1'>Algodón</option>
-          <option value='2'>Algodón/Elastano</option>
-          <option value='3'>Algodón/Elastano/Poliester</option>
-          <option value='4'>Gabardinas</option>
+          <option value='1'>Elastizados</option>
+          <option value='2'>Semirrígido</option>
+          <option value='3'>Rígidos</option>
         </select>
       </div>
       <MobileGallery filter={filter} />
