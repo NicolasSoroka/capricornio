@@ -59,7 +59,7 @@ const HomePage = () => {
         <div className='flex relative min-h-[350px] h-[350px] md:h-[calc(100vh-100px)] w-full overflow-hidden'>
           <video
             className='flex h-full absolute w-full top-0 object-cover'
-            src='/home/video.mp4'
+            src='src/assets/home/video.mp4'
             muted
             autoPlay
             loop
@@ -94,7 +94,7 @@ const HomePage = () => {
         </div>
         <div className='flex relative min-h-[350px] h-[350px] md:h-[calc(100vh-100px)] w-full overflow-hidden'>
           <img
-            src='/home/banner-2.webp'
+            src='src/assets/home/banner-2.webp'
             alt=''
             className='flex absolute w-full h-full object-cover'
           />
@@ -128,7 +128,7 @@ const HomePage = () => {
         </div>
         <div className='flex relative min-h-[350px] h-[350px] md:h-[calc(100vh-100px)] w-full overflow-hidden'>
           <img
-            src='/home/banner-1.webp'
+            src='src/assets/home/banner-1.webp'
             alt=''
             className='flex w-full h-full absolute object-cover'
           />
@@ -167,7 +167,7 @@ const HomePage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              src='/home/gal1.webp'
+              src='src/assets/home/gal1.webp'
               alt='gal1'
               className='flex relative scale-[0.6] h-[200px] md:h-full'
             />
@@ -183,7 +183,7 @@ const HomePage = () => {
                 _collab capri
               </h2>
               <img
-                src='/home/gal2.webp'
+                src='src/assets/home/gal2.webp'
                 alt='gal1'
                 className='flex relative h-[150px] md:h-1/2'
               />
@@ -201,7 +201,7 @@ const HomePage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              src='/home/gal4.webp'
+              src='src/assets/home/gal4.webp'
               alt='gal4'
               className='flex relative scale-[0.6] h-[250px] md:h-full'
             />
@@ -243,7 +243,7 @@ const HomePage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                src='/home/gal3.webp'
+                src='src/assets/home/gal3.webp'
                 alt='gal3'
                 className='flex relative h-[200px] md:h-1/2 md:w-full md:object-cover'
               />
@@ -270,7 +270,7 @@ const HomePage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
-              src='/home/gal5.webp'
+              src='src/assets/home/gal5.webp'
               alt='gal5'
               className='flex relative scale-[0.6] h-[200px] top-[20px] md:top-0 md:h-1/2 '
             />
@@ -317,7 +317,7 @@ const HomePage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                src='/home/gal6.webp'
+                src='src/assets/home/gal6.webp'
                 alt='gal6'
                 className='flex relative h-[250px] md:h-full'
               />
@@ -336,7 +336,7 @@ const HomePage = () => {
       </Slider>
 
       <img
-        src='/home/logocapri.webp'
+        src='src/assets/home/logocapri.webp'
         alt='logocapri_watermark'
         className='absolute top-[70px] -right-[150px] z-auto md:top-0 md:-right-[600px] md:scale-[60%] opacity-70'
       />
