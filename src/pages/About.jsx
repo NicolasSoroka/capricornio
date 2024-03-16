@@ -3,14 +3,14 @@ const AboutPage = () => {
     <div className='relative flex flex-col items-center justify-center overflow-x-hidden'>
       <video
         className='w-full'
-        src='../../about/video.mov'
+        src='/assets/about/video.mov'
         muted
         autoPlay
         loop
       />
 
       <img
-        src='./home/logocapri.webp'
+        src='/assets/home/logocapri.webp'
         alt='logocapri_watermark'
         className='absolute top-[70px] -right-[150px] z-auto md:top-0 md:-right-[600px] md:scale-[60%] opacity-70'
       />
@@ -39,7 +39,7 @@ const AboutPage = () => {
 
       <div className='md:relative flex justify-center md:p-0 h-[200px] md:h-[475px] md:w-[830px] md:max-w-none max-w-[360px] w-[330px] my-8 z-50'>
         <img
-          src='./about/watermark.webp'
+          src='/assets/about/watermark.webp'
           alt='watermark_About'
           className='hidden md:flex absolute -left-28 -top-24 z-50'
         />
@@ -55,7 +55,7 @@ const AboutPage = () => {
 
       <div className='flex w-full gap-x-5 md:hidden'>
         <img
-          src='./about/img1.webp'
+          src='/assets/about/img1.webp'
           alt='img1_about'
           className='w-[170px] h-[320px] object-cover'
         />
@@ -93,7 +93,7 @@ const AboutPage = () => {
           </p>
         </div>
         <img
-          src='./about/img2.png'
+          src='/assets/about/img2.png'
           alt='img1_about'
           className='w-[200px] h-[320px] object-cover z-auto'
         />
@@ -109,7 +109,7 @@ const AboutPage = () => {
       {/* desktop */}
       <div className='hidden md:flex relative w-full max-w-[1250px]'>
         <img
-          src='./about/img1.webp'
+          src='/assets/about/img1.webp'
           alt='img1_about'
           className='relative w-[530px] h-[900px] object-cover -top-[200px]'
         />
@@ -148,7 +148,7 @@ const AboutPage = () => {
             </div>
 
             <img
-              src='./about/img2.png'
+              src='/assets/about/img2.png'
               alt='img1_about'
               className='w-[530px] h-[1000px] object-cover flex relative z-50 -top-[50px]'
             />

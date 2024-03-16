@@ -2,8 +2,8 @@ import React from 'react'
 
 const ProductDetail = ({ details }) => {
   return (
-    <div className='flex flex-col relative border-l min-w-[250px] max-w-[700px] md:max-h-[150px] h-[150px] md:h-[150px] '>
-      <div className='flex flex-col w-full h-full border-l-[2px] border-black text-xl'>
+    <div className='flex flex-col relative border-l min-w-[250px] max-w-[700px] md:max-h-[150px] h-[150px] md:h-[130px] '>
+      <div className='flex flex-col w-full h-full border-l-[2px] border-black text-base'>
         <p className='pb-1 px-4'>{details.titulo}</p>
         <p className='w-full pl-4 py-1 border-t-[2px] border-black pr-4'>
           {details.desc}

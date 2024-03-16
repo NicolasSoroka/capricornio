@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "slider-1" : "url('src/assets/home/bg1.png')",
-        "slider-2" : "url('src/assets/home/bg2.png')",
-        "slider-3" : "url('src/assets/home/bg3.webp')",
-        "slider-4" : "url('src/assets/home/bann31.webp')",
-        "slider-5" : "url('src/assets/home/bann32.webp')",
+        "slider-1" : "url('/assets/home/bg1.png')",
+        "slider-2" : "url('/assets/home/bg2.png')",
+        "slider-3" : "url('/assets/home/bg3.webp')",
+        "slider-4" : "url('/assets/home/bann31.webp')",
+        "slider-5" : "url('/assets/home/bann32.webp')",
       },
       fontFamily: {
         'sans': ['Neue','Roboto', 'Helvetica', 'Arial', 'sans-serif'],
@@ -27,7 +27,6 @@ export default {
         reduceWidth: 'reduceWidth 2s ease alternate infinite',
       }
     },
-    
   },
   plugins: [],
 }
