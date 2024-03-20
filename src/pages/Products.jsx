@@ -21,8 +21,8 @@ const ProductsPage = () => {
             Seleccione tipo
           </option>
           <option value='1'>Elastizados</option>
-          <option value='2'>Semirrígido</option>
-          <option value='3'>Rígidos</option>
+          <option value='2'>Rígidos</option>
+          <option value='3'>Semirrígido</option>
         </select>
       </div>
       <MobileGallery filter={filter} />
