@@ -1,8 +1,13 @@
 import { useForm } from 'react-hook-form'
+import { motion } from 'framer-motion'
 
 const ContactForm = () => {
-  const {register, handleSubmit, formState: { errors }} = useForm()
-  console.log("🚀 ~ ContactForm ~ errors:", errors)
+  const {
+    register,
+    handleSubmit,
+    formState: { errors }
+  } = useForm()
+  console.log('🚀 ~ ContactForm ~ errors:', errors)
 
   const onSubmit = async data => {
     try {
@@ -15,10 +20,8 @@ const ContactForm = () => {
       })
 
       if (response.ok) {
-        // Aquí puedes manejar la respuesta exitosa, si lo necesitas
         console.log('Correo enviado exitosamente')
       } else {
-        // Aquí puedes manejar el caso en el que no se pudo enviar el correo
         console.error('Hubo un problema al enviar el correo')
       }
     } catch (error) {
@@ -28,7 +31,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      action='/action_page.php'
+      // action='/action_page.php'
       className='flex flex-col w-full px-6 font-sans font-bold tracking-wider md:max-w-[700px]'
     >
       <label
@@ -41,7 +44,7 @@ const ContactForm = () => {
         className='pl-4 pb-2 mb-4 border-b-slate-400 border-b-2 outline-none'
         type='text'
         placeholder='Por exemplo: Julia'
-        {...register('First name', { required: true, maxLength: 80 })}
+        {...register('name', { required: true, maxLength: 80 })}
       />
       <label
         className='mb-3 text-sm font-extrabold tracking-widest'
@@ -53,7 +56,7 @@ const ContactForm = () => {
         className='pl-4 pb-2 mb-4 border-b-slate-400 border-b-2 outline-none'
         type='text'
         placeholder='Apellido'
-        {...register('Last name', { required: true, maxLength: 100 })}
+        {...register('lastname', { required: true, maxLength: 100 })}
       />
       <label
         className='mb-3 text-sm font-extrabold tracking-widest'
@@ -65,7 +68,7 @@ const ContactForm = () => {
         className='pl-4 pb-2 mb-4 border-b-slate-400 border-b-2 outline-none'
         type='text'
         placeholder='Email'
-        {...register('Email', { required: true, pattern: /^\S+@\S+$/i })}
+        {...register('email', { required: true, pattern: /^\S+@\S+$/i })}
       />
       <label
         className='mb-2 text-sm font-extrabold tracking-widest'
@@ -77,7 +80,7 @@ const ContactForm = () => {
         className='pl-4 pb-2 mb-4 border-b-slate-400 border-b-2 outline-none'
         type='tel'
         placeholder='Numero de telefono'
-        {...register('Mobile number', {
+        {...register('phone', {
           required: true,
           minLength: 6,
           maxLength: 12
@@ -91,7 +94,7 @@ const ContactForm = () => {
       </label>
       <select
         className='pl-4 pb-2 mb-4 border-b-slate-400 border-b-2 outline-none'
-        {...register('Rubro')}
+        {...register('brand')}
       >
         <option value='Comercial'>Comercial</option>
         <option value='Financiero'>Financiero</option>
@@ -113,10 +116,11 @@ const ContactForm = () => {
         className='outline-none border-b-2 border-b-slate-400'
       />
 
-      <input
+      <motion.input
+        whileTap={{ scale: 0.9 }}
         type='submit'
         value='enviar'
-        className='w-[80%] m-auto bg-black text-white h-[50px] uppercase tracking-widest mt-6 md:max-w-[200px]'
+        className='w-[80%] m-auto bg-black text-white h-[50px] uppercase tracking-widest mt-6 md:max-w-[200px] cursor-pointer'
       />
     </form>
   )
