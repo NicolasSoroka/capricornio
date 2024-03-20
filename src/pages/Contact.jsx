@@ -1,24 +1,6 @@
 import ContactForm from "../components/ContactForm";
 
-import { Resend } from 'resend';
-// import Email from "../components/email";
-// import { Email } from './email';
-
-
 const ContactPage = () => {
-
-  const resend = new Resend('re_123456789');
-
-  const handleSend = async () => {
-    await resend.emails.send({
-      from: 'you@example.com',
-      to: 'sorokanicolas@gmail.com',
-      subject: 'hello world',
-      // react: <Email url="https://example.com" />,
-      react: <h2>Test del mail</h2>,
-    });
-  }
-
   return (
     <div className="flex flex-col items-center justify-center w-full gap-y-4 py-6">
       <img
@@ -33,11 +15,7 @@ const ContactPage = () => {
 
       <p className="px-6 text-left text-xl">Escribenos y en la brevedad un asesor se pondra en contacto.</p>
 
-      {/* <ContactForm /> */}
-
-      <button onClick={() => handleSend()}>
-        handleSend
-      </button>
+      <ContactForm />
     </div>
   );
 };
