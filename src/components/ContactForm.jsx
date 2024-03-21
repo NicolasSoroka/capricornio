@@ -9,10 +9,28 @@ const ContactForm = () => {
   } = useForm()
   console.log('🚀 ~ ContactForm ~ errors:', errors)
 
+  const onSubmit = async data => {
+    try {
+      const response = await fetch('./sendEmail.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+
+      if (response.ok) {
+        console.log('Correo enviado exitosamente')
+      } else {
+        console.error('Hubo un problema al enviar el correo')
+      }
+    } catch (error) {
+      console.error('Hubo un error al enviar el correo:', error)
+    }
+  }
   return (
     <form
-      // onSubmit={handleSubmit(onSubmit)}
-      action='/action_page.php'
+      onSubmit={handleSubmit(onSubmit)}
       className='flex flex-col w-full px-6 font-sans font-bold tracking-wider md:max-w-[700px]'
     >
       <label
